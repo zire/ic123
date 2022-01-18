@@ -1,1 +1,1 @@
-# dfinity-intro
+# DFINITY Introduction
