@@ -14,6 +14,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
+1. How to make changes and deploy to IC
+
+- go into the `gatsby_site` directory
+- `yarn dev` to launch local server at port 8000 or 8001 for local development, [http://localhost:8001/](http://localhost:8001/)
+- make changes in the `src/` folder and view changes on the localhost URL
+- deploy the latest version with `dfx deploy --network ic --no-wallet`
+
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
