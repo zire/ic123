@@ -16,13 +16,13 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1. How to make changes and deploy to IC
 
-- go into the `gatsby_site` directory
-- `yarn dev` to launch local server at port 8000 or 8001 for local development, [http://localhost:8001/](http://localhost:8001/)
-- make changes in the `src/` folder and view changes on the localhost URL
-- deploy the latest version with `dfx deploy --network ic --no-wallet`
+	- go into the `gatsby_site` directory
+	- `yarn dev` to launch local server at port 8000 or 8001 for local development, [http://localhost:8001/](http://localhost:8001/)
+	- make changes in the `src/` folder and view changes on the localhost URL
+	- deploy the latest version with `dfx deploy --network ic --no-wallet`
 
 
-1.  **Create a Gatsby site.**
+2.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
@@ -31,7 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
-1.  **Start developing.**
+3.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -40,7 +40,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+4.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
