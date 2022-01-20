@@ -49,9 +49,11 @@ const Banner = () => {
         <Row>
           <Col className="lg-8 xs-12">
             <Box className="banner-content">
+              {/*
               <Badge className="offer-text">
                 14 days, a huge of free trial
               </Badge>
+              */}
               <Heading as="h1">
                 Easiest way to transfer, <br /> sell & exchange crypto coins
               </Heading>

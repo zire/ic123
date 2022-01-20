@@ -64,11 +64,12 @@ const BannerThree = () => {
                   <br />
                   then, trusted as concepts belt.
                 </Text>
-
+                {/*
                 <Box className="input-box">
                   <Input type="email" placeholder="Enter your email" />
                   <Button>Create Account</Button>
                 </Box>
+                */}
               </Box>
             </Col>
           </Row>
