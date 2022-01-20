@@ -29,16 +29,12 @@ const About = () => {
               <SectionTitle>
                 <SectionBackground>
                   <Heading as="h1">
-                    Protecting investor with high security
+                    Most Scalable Blockchain Network
                   </Heading>
                 </SectionBackground>
-
                 <Text>
-                  Intended village pay like…. Discipline would, interesting that
-                  I off easier bathroom covered project the away, man you their
-                  by a temple prisoners. Have as her of your of in many,
-                  searched had class. Had with one entire children away. Problem
-                  got boss.
+                The Internet Computer ("ICP") was developed by the DFINITY Foundation, 
+                which was founded by Dominic Williams in 2016. 
                 </Text>
               </SectionTitle>
 

@@ -55,13 +55,14 @@ const Banner = () => {
               </Badge>
               */}
               <Heading as="h1">
-                Easiest way to transfer, <br /> sell & exchange crypto coins
+                Blockchain 3.0
               </Heading>
               <Text>
-                The highly the not having with lively. Our up with ran go her{" "}
+                BTC stores value{" "}
                 <br />
-                it gloomy the back, though however projected not for six with
-                then, <br /> trusted as concepts belt.
+                ETH defines assets
+                <br />
+                ICP runs applications
               </Text>
               {/*
               <Box className="banner-btn">
@@ -78,11 +79,13 @@ const Banner = () => {
             </Box>
           </Col>
         </Row>
+        {/*
         <img
           src={BannerImage}
           className="banner__thumb"
           alt="cryptik banner thumb"
         />
+        */}
       </Container>
     </BannerWrapper>
   )

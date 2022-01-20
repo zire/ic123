@@ -32,14 +32,10 @@ const Wallet = () => {
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Crypto management wallet </Heading>
+                  <Heading> Blockchain 3.0 </Heading>
                 </SectionBackground>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch he warned a they
-                  but country. Times, cache in and what but the that go
-                  facilitate far were house.
+                  Xiao Feng said this .... 
                 </Text>
               </SectionTitle>
 

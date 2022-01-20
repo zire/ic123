@@ -7,6 +7,7 @@ import Text from "reusecore/Text"
 
 import data from "assets/data/service"
 import ServiceSectionWrapper from "./service.style"
+import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
 const Service = () => {
   return (
@@ -15,6 +16,19 @@ const Service = () => {
         <Row>
           <Col className="md-12">
             <Box className="service-item-wrapper">
+              <Row>
+                <SectionTitle>
+                  <SectionBackground>
+                    <Heading as="h1">
+                    Paradigm Shifting Innovations
+                    </Heading>
+                  </SectionBackground>
+                  <Text>
+                  The Internet Computer ("ICP") was developed by the DFINITY Foundation, 
+                  which was founded by Dominic Williams in 2016. 
+                  </Text>
+              </SectionTitle>
+              </Row>
               <Row>
                 {data.services.map((service, index) => (
                   <Col className="lg-3 sm-6 xs-12" key={index}>

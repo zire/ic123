@@ -18,6 +18,7 @@ import {
 import CoinFundWrapper from "./coinFund.style"
 
 const CoinFund = () => {
+  /*
   const settings = {
     count: 5432560, 
     showTitle: true,
@@ -31,6 +32,7 @@ const CoinFund = () => {
     secondTitle: "Seconds",
     id: "countdownwrap"
   }
+  */
 
   return (
     <CoinFundWrapper id="token">
@@ -41,13 +43,11 @@ const CoinFund = () => {
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                    Powering Data for the new equity blockchain.
+                    Team Introduction
                   </Heading>
                 </SectionBackground>
                 <Text>
-                  The highly the not having with lively. Our up with ran go her
-                  it gloomy the back, though however projected not for six with
-                  then, trusted as concepts belt.
+                 200 people!
                 </Text>
               </SectionTitle>
 
@@ -61,6 +61,7 @@ const CoinFund = () => {
               
             </Box>
           </Col>
+          {/*
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
               <Text> Last moment to grab the token </Text>
@@ -92,6 +93,7 @@ const CoinFund = () => {
               </Text>
             </Box>
           </Col>
+          */}
         </Row>
       </Container>
     </CoinFundWrapper>

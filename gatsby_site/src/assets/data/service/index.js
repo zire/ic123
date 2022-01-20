@@ -7,22 +7,22 @@ export default {
   services: [
     {
       icon: serviceIcon1,
-      title: "ICO Finance",
+      title: "Chain Key Technology",
       body: "The highly the not having with lively Our up with.",
     },
     {
       icon: serviceIcon2,
-      title: "Blockchain",
+      title: "Canister Smart Contract",
       body: "The highly the not having with lively Our up with.",
     },
     {
       icon: serviceIcon3,
-      title: "Market News",
+      title: "Reverse Gas Model with Zero Fee",
       body: "The highly the not having with lively Our up with.",
     },
     {
       icon: serviceIcon4,
-      title: "Exchange Offer",
+      title: "Network Nervous System",
       body: "The highly the not having with lively Our up with.",
     },
   ],

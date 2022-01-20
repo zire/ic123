@@ -3,57 +3,45 @@ const Data = {
     {
       name: "Home",
       path: "/",
-      /*
-      subItems: [
-        {
-          name: "Home Two",
-          path: "/home-two",
-        },
-        {
-          name: "Home Three",
-          path: "/home-three",
-        },
-        {
-          name: "Home Slider",
-          path: "/home-slider",
-        }
-      ],
-      */
     },
     {
-      name: "About",
+      name: "Tech",
       path: "about",
       offset: "-100",
     },
     {
-      name: "Service",
-      path: "service",
-      offset: "-120",
-    },
-    {
-      name: "Token",
-      path: "token",
+      name: "Performance",
+      path: "about",
       offset: "-100",
     },
-
     {
-      name: "Pages",
-      path: "/blog-grid",
+      name: "Comparison",
+      path: "about",
+      offset: "-100",
+    },
+    {
+      name: "Growth",
+      path: "about",
+      offset: "-100",
+    },
+    {
+      name: "More",
+      path: "blog-full",
       subItems: [
         {
-          name: "Blog Grid",
-          path: "/blog-grid",
-        },
-        {
-          name: "Blog List",
-          path: "/blog-list",
-        },
-        {
-          name: "Blog Full",
+          name: "Deck Full",
           path: "/blog-full",
         },
         {
-          name: "Blog Single",
+          name: "Deck List",
+          path: "/blog-list",
+        },
+        {
+          name: "Deck Grid",
+          path: "/blog-grid",
+        },
+        {
+          name: "Deck Single",
           path: "/blog-single",
         },
       ],

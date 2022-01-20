@@ -55,7 +55,7 @@ const BannerThree = () => {
             <Col className="lg-8 md-10 xs-12">
               <Box className="banner-content">
                 <Heading>
-                  The most trusted <br /> Digital asset exchange
+                  The largest R&D team in blockchain <br /> 
                 </Heading>
                 <Text>
                   The highly the not having with lively. Our up with ran go her{" "}
