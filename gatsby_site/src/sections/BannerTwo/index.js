@@ -25,7 +25,7 @@ import watchIcon from 'assets/images/banners/banner-two/cryptik-banner-watch-ico
 import heartIcon from 'assets/images/banners/banner-two/cryptik-banner-heart-icon.svg';
 */
 
-import ic_stack from 'assets/images/banners/banner-two/ic_stack.png';
+import ic_stack from 'assets/images/deck/ic_stack.png';
 import contractIcon from 'assets/images/banners/banner-two/agreement-svgrepo-com.svg';
 import webIcon from 'assets/images/banners/banner-two/web-svgrepo-com.svg';
 import storageIcon from 'assets/images/banners/banner-two/storage-svgrepo-com.svg';
@@ -47,15 +47,19 @@ const BannerTwo = () => {
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                INTERNET COMPUTER <br/>
-                Blockchain Singularity
+                INTERNET COMPUTER
               </Heading>
               <Text as="span" className="description">
-                The world's most advanced blockchain protocol - ICP,  weaves together the computing capacity of node machines, run by independent parties
+                <p>The world's most advanced blockchain protocol - ICP (Internet Computer Protocol),  weaves together the computing capacity of node machines, run by independent parties
                 in independent data centers around the world, into a single giant virtual machine. It's the first and only blockchain network that can
                 host interactive web front-end, run smart contract securely with cryptographic signature and provide decentralized storage and computing infrastructure to all web developers.          
+                </p>
+                <p>
+                The launch of ICP ignites a march toward blockchain singularity, where
+                all things that can be run on-chain, eventually will be built on-chain.
+                </p>
               </Text>
-
+              {/*
               <Box className="coin-info">
                 <Box>
                   <Image src={contractIcon} alt="contract banner icon" />
@@ -70,8 +74,6 @@ const BannerTwo = () => {
                   <Text>Storage & Computing</Text>
                 </Box>
               </Box>
-
-              {/*
               <Box className="banner-btn">
                 <Link to="#" className="btn btn-fill">
                    <FaGithub /> Download Crypto 

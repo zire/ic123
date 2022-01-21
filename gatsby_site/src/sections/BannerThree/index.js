@@ -18,6 +18,7 @@ import particleBottomRight from "assets/images/particles/banner/particle-bottom-
 */
 
 import BannerWrapper from "./banner.style"
+import dfinity_team from 'assets/images/deck/dfinity_team.png';
 
 const BannerThree = () => {
   return (
@@ -51,24 +52,33 @@ const BannerThree = () => {
         />
         */}
         <Container>
+          {/*
           <img
             className="banner__thumb"
             alt="cryptik banner thumb"
             src={BannerImage}
           />
+          */}
           <Row>
-            <Col className="lg-8 md-10 xs-12">
+            <Col className="lg-7 md-10 xs-12">
               <Box className="banner-content">
-                <Heading>
-                  The largest R&D team in blockchain <br /> 
-                </Heading>
-                <Text>
-                  The highly the not having with lively. Our up with ran go her{" "}
-                  <br />
-                  it gloomy the back, though however projected not for six with{" "}
-                  <br />
-                  then, trusted as concepts belt.
-                </Text>
+              <Heading>
+                BEST IN CLASS
+              </Heading>
+              <Text as="span" className="description">
+                <p>
+                ICP was developed by the DFINITY Foundation, which was founded by Dominic Williams in 2016.
+                It's headquartered in Zurich, Switzerland with over 200 employeess in Switzerland, US and over 20+
+                countries. 
+                </p>
+                <p>
+                DFINITY has assembled the largest crypto R&D team in the world and recruited many leading cryptographers and blockchain engineers, including an IEEE Fellow,
+                a co-creator of Web Assembly and a co-creator of B-L-S algorithm, among many all-star scientists. 
+                </p>
+                <p>
+                Find out more from <a href="https://dfinity.org">DFINITY's official website</a>.
+                </p>
+              </Text>
                 {/*
                 <Box className="input-box">
                   <Input type="email" placeholder="Enter your email" />
@@ -77,6 +87,9 @@ const BannerThree = () => {
                 */}
               </Box>
             </Col>
+            <Col className="lg-5 md-6 sm-12">
+            <img src={dfinity_team} alt="xiao feng quote" width="493.537"/>
+          </Col>
           </Row>
         </Container>
       </Box>

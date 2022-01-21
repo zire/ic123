@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Container, Row, Col } from "reusecore/Layout"
-import Box from "reusecore/Box"
+import { Container, Row, Col } from "reusecore/Layout";
+import Box from "reusecore/Box";
 import Badge from "reusecore/Badge"
-import Heading from "reusecore/Heading"
-import Text from "reusecore/Text"
+import Heading from "reusecore/Heading";
+import Text from "reusecore/Text";
+import Image from "reusecore/Image";
 
 /*
 import BannerImage from "assets/images/banners/banner-one/banner-one-thumb.svg"
@@ -16,56 +17,35 @@ import particleBottomLeft from "assets/images/particles/banner/particle-bottom-l
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png"
 */
 
-import BannerWrapper from "./banner.style"
+import BannerWrapper from "./banner.style";
+
+import xiaofeng_quote from "assets/images/deck/xiaofeng_quote.png"; 
+
 
 const Banner = () => {
   return (
     <BannerWrapper>
-      {/*}
-      <img
-        src={particleTopLeft}
-        className="section__particle top-left"
-        alt="cryptik particles"
-      />
-      <img
-        src={particleUnderLogo}
-        className="section__particle two"
-        alt="cryptik particles"
-      />
-      <img
-        src={prticleTopRight}
-        className="section__particle top-right"
-        alt="cryptik particles"
-      />
-      <img
-        src={particleBottomLeft}
-        className="section__particle bottom-left"
-        alt="cryptik particles"
-      />
-      <img
-        src={particleBottomRight}
-        className="section__particle bottom-right"
-        alt="cryptik particles"
-      />
-      */}
       <Container>
         <Row>
-          <Col className="lg-8 xs-12">
+          <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content">
               {/*
               <Badge className="offer-text">
                 14 days, a huge of free trial
               </Badge>
               */}
-              <Heading as="h1">
-                Blockchain 3.0
+              <Heading>
+                BLOCKCHAIN 3.0
               </Heading>
-              <Text>
-                BTC stores value{" "}
-                <br />
-                ETH defines assets
-                <br />
-                ICP runs applications
+              <Text as="span" className="description">
+                <p>In the ocean of a few thousand blockchains, why we still need ICP?
+                While Bitcoin has become the store of value and Ethereum is becoming a popular protocol 
+                to define asset ownership, ICP will be the blockchain network that runs web applications.
+                </p>
+                <p>
+                All the things that can built on other chains, can be built on ICP as well, such as DeFi, NFT and tokens, at a lower cost, faster finality and higher capacity.
+                All the things that cannot be built on other chains, can be built on ICP, such as everything from traditional Web2.
+                </p>
               </Text>
               {/*
               <Box className="banner-btn">
@@ -80,6 +60,9 @@ const Banner = () => {
               </Box>
               */}
             </Box>
+          </Col>
+          <Col className="lg-5 md-6 sm-12">
+            <img src={xiaofeng_quote} alt="xiao feng quote" width="493.537"/>
           </Col>
         </Row>
         {/*
