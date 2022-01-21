@@ -9,6 +9,10 @@ import data from "assets/data/service"
 import ServiceSectionWrapper from "./service.style"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
+import contractIcon from "assets/images/deck/agreement-svgrepo-com.svg";
+import webIcon from "assets/images/deck/web-svgrepo-com.svg";
+import storageIcon from "assets/images/deck/storage-svgrepo-com.svg";
+
 const Service = () => {
   return (
     <ServiceSectionWrapper id="service">
@@ -20,13 +24,9 @@ const Service = () => {
                 <SectionTitle>
                   <SectionBackground>
                     <Heading as="h1">
-                    Paradigm Shifting Innovations
+                    Technology Innovations
                     </Heading>
                   </SectionBackground>
-                  <Text>
-                  The Internet Computer ("ICP") was developed by the DFINITY Foundation, 
-                  which was founded by Dominic Williams in 2016. 
-                  </Text>
               </SectionTitle>
               </Row>
               <Row>

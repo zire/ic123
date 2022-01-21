@@ -10,11 +10,6 @@ const Data = {
       offset: "-100",
     },
     {
-      name: "Performance",
-      path: "about",
-      offset: "-100",
-    },
-    {
       name: "Comparison",
       path: "about",
       offset: "-100",
@@ -24,6 +19,7 @@ const Data = {
       path: "about",
       offset: "-100",
     },
+    /*
     {
       name: "More",
       path: "blog-full",
@@ -56,6 +52,7 @@ const Data = {
       path: "contact",
       offset: "-70",
     },
+    */
   ],
 }
 export default Data

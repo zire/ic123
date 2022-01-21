@@ -16,19 +16,15 @@ const Awards = () => {
       <Container>
         <Row>
           <Col className="md-6">
-            <Box className="awards-left-content">
               <SectionTitle>
                 <SectionBackground>
                   <Heading as="h1">Explosive Growth</Heading>
                 </SectionBackground>
-                <Text>
-                  The Internet Computer ("ICP") was developed by the DFINITY Foundation, which was founded by Dominic Williams in 2016. 
-                </Text>
               </SectionTitle>
-            </Box>
           </Col>
-
-          <Col className="md-6 awards-col">
+        </Row>
+        <Row>
+          <Col>          
             <Box className="awards-item-wrapper">
               {data.awards.map((item, index) => (
                 <Box

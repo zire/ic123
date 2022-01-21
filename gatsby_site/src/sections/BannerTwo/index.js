@@ -26,9 +26,6 @@ import heartIcon from 'assets/images/banners/banner-two/cryptik-banner-heart-ico
 */
 
 import ic_stack from 'assets/images/deck/ic_stack.png';
-import contractIcon from 'assets/images/banners/banner-two/agreement-svgrepo-com.svg';
-import webIcon from 'assets/images/banners/banner-two/web-svgrepo-com.svg';
-import storageIcon from 'assets/images/banners/banner-two/storage-svgrepo-com.svg';
 
 import BannerWrapper from "./banner.style";
 
