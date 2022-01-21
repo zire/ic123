@@ -8,11 +8,14 @@ import Input from "reusecore/Form/Input"
 import Button from "reusecore/Button"
 
 import BannerImage from "assets/images/banners/banner-three/cryptik-banner-three-thumb.svg"
+
+/*
 import particleTopLeft from "assets/images/particles/banner/particle-top-left.png"
 import particleUnderLogo from "assets/images/particles/banner/particle-under-logo.png"
 import prticleTopRight from "assets/images/particles/banner/prticle-top-right.png"
 import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png"
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png"
+*/
 
 import BannerWrapper from "./banner.style"
 
@@ -20,6 +23,7 @@ const BannerThree = () => {
   return (
     <BannerWrapper>
       <Box className="banner-three-wrap">
+        {/*
         <img
           src={particleTopLeft}
           className="section__particle top-left"
@@ -45,6 +49,7 @@ const BannerThree = () => {
           className="section__particle bottom-right"
           alt="cryptik particles"
         />
+        */}
         <Container>
           <img
             className="banner__thumb"

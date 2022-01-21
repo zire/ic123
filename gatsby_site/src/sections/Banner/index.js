@@ -7,19 +7,21 @@ import Badge from "reusecore/Badge"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 
+/*
 import BannerImage from "assets/images/banners/banner-one/banner-one-thumb.svg"
-
 import particleTopLeft from "assets/images/particles/banner/particle-top-left.png"
 import particleUnderLogo from "assets/images/particles/banner/particle-under-logo.png"
 import prticleTopRight from "assets/images/particles/banner/prticle-top-right.png"
 import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png"
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png"
+*/
 
 import BannerWrapper from "./banner.style"
 
 const Banner = () => {
   return (
     <BannerWrapper>
+      {/*}
       <img
         src={particleTopLeft}
         className="section__particle top-left"
@@ -45,6 +47,7 @@ const Banner = () => {
         className="section__particle bottom-right"
         alt="cryptik particles"
       />
+      */}
       <Container>
         <Row>
           <Col className="lg-8 xs-12">

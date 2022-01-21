@@ -31,7 +31,7 @@ const IndexPage = () => (
       <SEO title="Home" />
       <Navigation />
       <BannerSlider />
-      {/*
+      {/*}
       <Wallet />
       <CoinFund /> 
       */}
