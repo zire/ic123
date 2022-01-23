@@ -9,10 +9,6 @@ import data from "assets/data/service"
 import ServiceSectionWrapper from "./service.style"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
-import contractIcon from "assets/images/deck/agreement-svgrepo-com.svg";
-import webIcon from "assets/images/deck/web-svgrepo-com.svg";
-import storageIcon from "assets/images/deck/storage-svgrepo-com.svg";
-
 const Service = () => {
   return (
     <ServiceSectionWrapper id="service">
