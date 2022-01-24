@@ -23,7 +23,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Home" />
+      <SEO title="IC123.xyz" />
       <Navigation />
       <BannerSlider />
       <Service />
