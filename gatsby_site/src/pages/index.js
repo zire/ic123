@@ -36,7 +36,7 @@ const IndexPage = () => (
       <CoinFund /> 
       */}
       <Service /> {/* technology innovations */}
-      {/* <About /> {/* performance of IC */} */}
+      {/* <About /> {/* performance of IC */} 
       <UserMap /> {/* comparison to other blockchains */}
       <Awards /> {/* ecosystem growth */}
       {/* <Statistics /> */}

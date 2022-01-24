@@ -11,10 +11,10 @@ import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
 const Service = () => {
   return (
-    <ServiceSectionWrapper id="service">
+    <ServiceSectionWrapper id="tech">
       <Container>
         <Row>
-          <Col className="md-12">
+          <Col className="xs-12">
             <Box className="service-item-wrapper">
               <Row>
                 <SectionTitle>

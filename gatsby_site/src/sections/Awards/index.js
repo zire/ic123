@@ -12,7 +12,7 @@ import AwardsSectionWrapper from "./awards.style"
 
 const Awards = () => {
   return (
-    <AwardsSectionWrapper>
+    <AwardsSectionWrapper id="growth">
       <Container>
         <Row>
           <Col className="md-6">

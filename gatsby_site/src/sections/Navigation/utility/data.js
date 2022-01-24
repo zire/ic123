@@ -6,17 +6,17 @@ const Data = {
     },
     {
       name: "Tech",
-      path: "about",
+      path: "tech",
       offset: "-100",
     },
     {
       name: "Comparison",
-      path: "about",
+      path: "comparison",
       offset: "-100",
     },
     {
       name: "Growth",
-      path: "about",
+      path: "growth",
       offset: "-100",
     },
     /*
