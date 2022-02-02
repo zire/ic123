@@ -62,9 +62,10 @@ const BlogSinglePage = () => {
                         Coracoes costumes grandeza com observou horrivel mas.
                         Amor tive fara de dado esse em. Ve es couberam oh
                         garrafal mListheres. Dourados duzentos voz lustroso diz
-                        discutir ahi. Luzindo no do tremLista na so fallava.
+                          discutir ahi. Luzindo no do tremLista na so fallava.
                         Evitava tropheu curiosa ou agitado os acceite si
                         assiste. Voz veio veja tez digo cres.
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6EiUeVbP0Fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </Text>
                       <blockquote>
                         You never change things by fighting the existing
@@ -75,6 +76,9 @@ const BlogSinglePage = () => {
                         Qualidades intimativa aferventar ira acompanhar mau
                         capitListada enfraquece. Em apavorar ficarmos cantante
                         se ia blasonou eu comprido.
+
+                        <a href="https://dfinity.org">DFINITY</a>
+                        
                       </Text>
 
                       <Text className="entry-four">
@@ -85,6 +89,7 @@ const BlogSinglePage = () => {
                         Evitava tropheu curiosa ou agitado os acceite si
                         assiste. Voz veio veja tez digo cres.
                       </Text>
+                      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Walking with my ape in Puxi, Shanghai<a href="https://twitter.com/ApesDfinity?ref_src=twsrc%5Etfw">@ApesDfinity</a> <a href="https://twitter.com/hashtag/DSA?src=hash&amp;ref_src=twsrc%5Etfw">#DSA</a> <a href="https://twitter.com/hashtag/Ape?src=hash&amp;ref_src=twsrc%5Etfw">#Ape</a> <a href="https://t.co/RXCaTdpGLp">pic.twitter.com/RXCaTdpGLp</a></p>&mdash; herbert.icp ∞ (@herbertyang) <a href="https://twitter.com/herbertyang/status/1487599869691064324?ref_src=twsrc%5Etfw">January 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </Box>
                     <Box className="post-info-block">
                       <Box className="tags">

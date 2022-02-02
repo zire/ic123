@@ -17,29 +17,31 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <Box className="footer-content-wrapper">
-        <Subscribe />
+        {/* <Subscribe /> */}
         <Container>
           <Row>
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
                 <img src={cryptikFooterLogo} alt="cryptik footer logo" />
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  The best way to get in touch with DFINITY team is through our official forum
                 </Text>
 
                 <Box className="contact-info">
-                  <Link to="#">
+                  <Link to="https://forum.dfinity.org/">
                     {" "}
-                    <FaPhoneAlt /> contact@cryptik.com{" "}
+                    <FaPhoneAlt /> DFINITY Developer Forum{" "}
                   </Link>
+                  {/*}
                   <Link to="#">
                     {" "}
                     <FaEnvelope /> +88 12345 697858{" "}
                   </Link>
+                  */}
                 </Box>
               </Box>
             </Col>
+            {/*
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
                 <Heading as="h2">Service</Heading>
@@ -65,31 +67,33 @@ const Footer = () => {
                 </List>
               </Box>
             </Col>
+            */}
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
-                <Heading as="h2">About Us</Heading>
+                <Heading as="h2">ICP & DFINITY Foundation</Heading>
                 <List>
                   <ListItem>
-                    <Link to="#">About Us</Link>
+                    <Link to="https://dfinity.org/foundation">About DFINITY Foundation</Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="#">Work Portfolio</Link>
+                    <Link to="https://dashboard.internetcomputer.org/">ICP Dashboard</Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="#">Team</Link>
+                    <Link to="https://dfinity.org/foundation#team">DFINITY Team</Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="#">Plan & Pricing</Link>
+                    <Link to="https://dfinity.org/grants">Developer Grant Program</Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="#">Content</Link>
+                    <Link to="https://dfinity.org/community">Community Awards Program</Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="#">Company News</Link>
+                    <Link to="https://smartcontracts.org/">Developer Center</Link>
                   </ListItem>
                 </List>
               </Box>
             </Col>
+            {/*}
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets address">
                 <Heading as="h2">Our Address</Heading>
@@ -98,6 +102,7 @@ const Footer = () => {
                 </Text>
               </Box>
             </Col>
+            */}
           </Row>
           <Row>
             <Col className="xs-12">

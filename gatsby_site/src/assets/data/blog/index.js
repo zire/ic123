@@ -52,6 +52,12 @@ export default {
             body: "Answer misery adieus add wooded how nay men before though.Pretended belonging contented mrs suffering.",
             thumbnail: blogPostThumb6
         },
+        {
+            url: "/start",
+            title: "Hitchhiker's Guide to Web3, Blockchain, IC & DFINITY",
+            body: "Answer misery adieus add wooded how nay men before though.Pretended belonging contented mrs suffering.",
+            thumbnail: blogPostThumb6
+        },
     ],
     recentPosts: [
         {

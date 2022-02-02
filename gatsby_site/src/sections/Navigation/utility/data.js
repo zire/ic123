@@ -19,6 +19,16 @@ const Data = {
       path: "growth",
       offset: "-100",
     },
+    {
+      name: "Article",
+      path: "/blog-full",
+      subItems: [
+        {
+          name: "Start",
+          path: "/start",
+        },
+      ],
+    },
     /*
     {
       name: "More",
@@ -42,6 +52,7 @@ const Data = {
         },
       ],
     },
+    /*
     {
       name: "FAQ",
       path: "faq",
