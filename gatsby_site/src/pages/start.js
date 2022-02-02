@@ -15,7 +15,7 @@ const ArticleStart = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Cryptik Blog Details Page" />
+      <SEO title="Hitchhiker's Guide to IC" />
       <Navigation />
       <ArticleStartPage />
       <Footer />
