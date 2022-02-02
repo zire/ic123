@@ -49,37 +49,54 @@ const ArticleStartPage = () => {
                       <Heading className="post-title">
                         Hitchhiker's Guide to Web3, Blockchain, the Internet Computer and DFINITY Foundation
                       </Heading>
-                      <Text className="entry-three">
+                      <Text className="entry-one">
                         So, you're new to crypto but have heard about IC or DFINITY from some friends. You're curious to find out more and may be even interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team and the Internet Computer, and how do you know if you have what it takes to excel in this new new industry?
                       </Text>
-                      <Text className="entry-three">
+                      <Text className="entry-one">
                         Here's a guide that can help you get started to grasp some basic concepts and get your hands dirty in this exciting world of Web3, metaverse, crypto and revolutionary Internet technology.
                       </Text>
-
+                      <Text className="entry-three">
+                        1. Challenges of Learning Blockchain
+                      </Text>
+                      <Text className="entry-one">
+                        Learning about blockchain/crypto is not easy. Everyone is talking about it. Every media is tossing around buzzwords like Web3, metaverse as if the future has already arrived and you're going to miss the train. Everyone seems to have strong opinion about it with very divided views. People from different blockchain camps diss each other and everyone thinks she is the prom queen.
+                      </Text>
+                      <Text className="entry-one">
+                        Blockchain is a very complex subject that weaves together sophisticated concepts from economics, investment, finance, mathematics, cryptography, software, Internet, and even sociology. There is overwhelming amount of information available that's hard to keep up with. It's an Amazon jungle with a large variety of sub-ecosystems all vying for supermacy with their own drum-beat. 
+                      </Text>
+                      <Text className="entry-one">
+                        There are many notions in blockchain that are hard to fathom. For one, many are always trapped in the debate on why BTC is worth so much and why it's not another Tulip Mania. Some say blockchain is a database, but some say they don't use database any more; some say it's a continuously growing network with smart contract, but some say they don't know how to interact with these smart contracts. And ... why are those jpeg photos worth half a million dollars? 
+                      </Text>
+                      <Text className="entry-one">
+                        Last but not the least challenge is that, information decays very fast in blockchain. What you read three months ago may have already become obsolete now. The trending topics at the moment seem to be rotating at a lightning speed. Just when you think you've got a hang of something, that thing is no longer hot and something else has taken over the airwave. It's very tiring and confusing to keep track of things.
+                      </Text>
+                      <Text className="entry-three">
+                        2. How To Do Research
+                      </Text>
+                      <Text className="entry-one">
+                        With all the above challenges. I have a few suggestions on how to do research, the right way in crypto. 
+                      </Text>
+                      <Text className="entry-three">
+                        3. What To Start
+                      </Text>
+                      <Text className="entry-three">
+                        4. How to Try Out ICP
+                      </Text>
+                      <Text className="entry-three">
+                        5. How Is This Job Different?
+                      </Text>
+                      <Text className="entry-three">
+                        6. What Kind of People Makes Good Fit?
+                      </Text>
+                      <Text className="entry-three">
+                        7. Proof-of-Commitment
+                      </Text>
                       {/*
                       <blockquote>
                         You never change things by fighting the existing
                         reality.To change something, build a new model.
                       </blockquote>
                       */}
-                      <Text className="entry-three">
-                        Ao corrida ar queriam reparae do imposta acoitar do.
-                        Qualidades intimativa aferventar ira acompanhar mau
-                        capitListada enfraquece. Em apavorar ficarmos cantante
-                        se ia blasonou eu comprido.
-
-                        <a href="https://dfinity.org">DFINITY</a>
-                        
-                      </Text>
-
-                      <Text className="entry-four">
-                        Coracoes costumes grandeza com observou horrivel mas.
-                        Amor tive fara de dado esse em. Ve es couberam oh
-                        garrafal mListheres. Dourados duzentos voz lustroso diz
-                        discutir ahi. Luzindo no do tremLista na so fallava.
-                        Evitava tropheu curiosa ou agitado os acceite si
-                        assiste. Voz veio veja tez digo cres.
-                      </Text>
                     </Box>
                     <Box className="post-info-block">
                       {/*
