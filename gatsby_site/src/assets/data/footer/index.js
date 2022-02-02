@@ -18,47 +18,23 @@ import {
     links : [
         {
             icon: <FaTwitter />,
-            url: "#"
-        },
-        {
-            icon: <FaTumblr />,
-            url: "#"
-        },
-        {
-            icon: <FaGooglePlusG />,
-            url: "#"
+            url: "https://twitter.com/dfinity"
         },
         {
             icon: <FaFacebookF />,
-            url: "#"
+            url: "https://www.facebook.com/dfinity.org/"
         },
         {
             icon: <FaLinkedinIn />,
-            url: "#"
-        },
-        {
-            icon: <FaSlack />,
-            url: "#"
+            url: "https://www.linkedin.com/company/dfinity"
         },
         {
             icon: <FaMediumM />,
-            url: "#"
-        },
-        {
-            icon: <FaTelegramPlane />,
-            url: "#"
-        },
-        {
-            icon: <FaSnapchatGhost />,
-            url: "#"
-        },
-        {
-            icon: <FaPinterestP />,
-            url: "#"
+            url: "https://medium.com/dfinity"
         },
         {
             icon: <FaYoutube />,
-            url: "#"
+            url: "https://www.youtube.com/c/DFINITY"
         }
     ]
   }

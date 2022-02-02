@@ -17,9 +17,12 @@ import Image from "reusecore/Image"
 import { List, ListItem } from "reusecore/List"
 import Button from "reusecore/Button"
 import PageHeader from "../../components/PageHeader"
-import Sidebar from "../../components/Blog-sidebar"
 
-import BlogThumb from "assets/images/blog/post/blog-post-5.png"
+/*
+import Sidebar from "../../components/Blog-sidebar"
+*/
+
+import heroImage from "assets/images/deck/Dfinity-Genesis-5.png"
 
 import AuthorThumb2 from "assets/images/testimonial/testimonial-thumb-2.jpg"
 import AuthorThumb3 from "assets/images/testimonial/testimonial-thumb-3.jpg"
@@ -35,15 +38,15 @@ const ArticleStartPage = () => {
       <Box className="single-post-wrapper">
         <Container>
           <Row>
-            <Col className="xs-12 lg-8">
+            <Col className="xs-12">
               <Row>
                 <Col className="xs-12">
                   <Box className="single-post-block">
                     <Box className="post-thumb-block">
-                      <Image src={BlogThumb} alt="cryptik blog page" />
+                      <Image src={heroImage} alt="Genesis Landing Page" />
                       <Box className="post-meta">
                         <Text as="span">
-                          <Text as="em"> 15 </Text> DEC
+                          <Text as="em"> 02 </Text> FEB
                         </Text>
                       </Box>
                     </Box>
@@ -117,9 +120,11 @@ const ArticleStartPage = () => {
                 </Col>
               </Row>
             </Col>
+            {/*
             <Col className="sm-12 lg-4">
               <Sidebar />
             </Col>
+            */}
           </Row>
         </Container>
       </Box>
