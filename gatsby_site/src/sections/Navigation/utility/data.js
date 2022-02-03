@@ -5,6 +5,15 @@ const Data = {
       path: "/",
     },
     {
+      name: "Article",
+      subItems: [
+        {
+          name: "Start",
+          path: "/start",
+        },
+      ],
+    },
+    {
       name: "Tech",
       path: "tech",
       offset: "-100",
@@ -19,16 +28,7 @@ const Data = {
       path: "growth",
       offset: "-100",
     },
-    {
-      name: "Article",
-      path: "/blog-full",
-      subItems: [
-        {
-          name: "Start",
-          path: "/start",
-        },
-      ],
-    },
+
     /*
     {
       name: "More",
