@@ -34,7 +34,8 @@
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "remark-mdx": "^2.0.0-next.9"
   },
   "keywords": [
     "gatsby"
