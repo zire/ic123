@@ -10,7 +10,7 @@ import Footer from "sections/Footer";
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
 
-const BlogGrid = () => (
+const BlogFull = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
@@ -21,4 +21,4 @@ const BlogGrid = () => (
     </Layout>
   </ThemeProvider>
 )
-export default BlogGrid
+export default BlogFull

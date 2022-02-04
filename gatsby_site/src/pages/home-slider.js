@@ -19,7 +19,7 @@ import Footer from "sections/Footer";
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
 
-const IndexPage = () => (
+const HomeSlider = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
@@ -40,4 +40,4 @@ const IndexPage = () => (
   </ThemeProvider>
 )
 
-export default IndexPage
+export default HomeSlider

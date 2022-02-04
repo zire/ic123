@@ -11,7 +11,7 @@ import Footer from "sections/Footer"
 import theme from "assets/theme/theme"
 import GlobalStyle from "assets/theme"
 
-const ArticleStart = () => (
+const StartPage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
@@ -22,4 +22,4 @@ const ArticleStart = () => (
     </Layout>
   </ThemeProvider>
 )
-export default ArticleStart
+export default StartPage
