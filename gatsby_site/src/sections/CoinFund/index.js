@@ -1,19 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
-import CountdownTimer from "react-component-countdown-timer"
 
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
-
-import {
-  FaBitcoin,
-  FaCcMastercard,
-  FaCcVisa,
-  FaCcDiscover,
-} from "react-icons/fa"
 
 import CoinFundWrapper from "./coinFund.style"
 

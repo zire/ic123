@@ -1,4 +1,4 @@
-import { FaAward, FaStar, FaHeart, FaDownload } from "react-icons/fa";
+/* import { FaAward, FaStar, FaHeart, FaDownload } from "react-icons/fa"; */
 
 export default {
   wallet: [

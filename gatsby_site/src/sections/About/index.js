@@ -1,6 +1,7 @@
 import React from "react"
+/*
 import { Link } from "gatsby"
-import { FaGooglePlay, FaApple } from "react-icons/fa"
+*/
 
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"

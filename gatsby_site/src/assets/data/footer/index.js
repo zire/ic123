@@ -2,15 +2,9 @@ import React from 'react';
 
 import { 
     FaTwitter,
-    FaTumblr,
-    FaGooglePlusG,
     FaFacebookF,
     FaLinkedinIn,
-    FaSlack,
     FaMediumM,
-    FaTelegramPlane,
-    FaSnapchatGhost,
-    FaPinterestP,
     FaYoutube,
   } from "react-icons/fa";
 

@@ -2,20 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import {
-  TiSocialFacebook,
   TiSocialTwitter,
-  TiSocialPinterest,
-  TiSocialLinkedin,
 } from "react-icons/ti";
-import { IoIosArrowRoundForward } from "react-icons/io"
+
 
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
 import Text from "reusecore/Text"
 import Heading from "reusecore/Heading"
 import Image from "reusecore/Image"
-import { List, ListItem } from "reusecore/List"
-import Button from "reusecore/Button"
 import PageHeader from "../../components/PageHeader"
 
 /*
@@ -115,7 +110,7 @@ const ArticleStartPage = () => {
                           <li><a href="https://linktr.ee/Bankless">Bankless</a> Weekly crypto news, one of the best in the business</li>
                           <li><a href="https://www.techmeme.com/">Techmeme</a> Daily crypto/tech news in usually 20-minute segments</li>
                           <li><a href="https://lexfridman.com/podcast/">Lex Fridman Podcast</a> Best interviewer on technology with all-star speakers like Elon Musk, Charles Hoskinson and Neal Stephenson</li>
-                          <li><a href="https://linktr.ee/timferriss">Tim Ferriss Podcast</a>Best interviewer in general with speakers like Jamie Foxx, Naval, Vitalik and Nick Szabo</li>
+                          <li><a href="https://linktr.ee/timferriss">Tim Ferriss Podcast</a> Best interviewer in general with speakers like Jamie Foxx, Naval, Vitalik and Nick Szabo</li>
                           <li><a href="https://www.laurashin.com/podcast/">Unchained Podcast by Laura Shin</a> Twice-weekly podcast on all things crypto</li>
                         </ul>
                       </Text>
@@ -143,7 +138,19 @@ const ArticleStartPage = () => {
                         4. Where To Start on DFINITY and ICP
                       </Text>
                       <Text className="entry-one">
-                        It's important to read from the right sources. <a href="https://dfinity.org/">DFINITY's official website</a> is your jump-off point, where you will find all things DFINITY and IC. <a href="https://twitter.com/dfinity">DFINITY's Twitter account</a> has the latest information and official announcement. <a href="https://dashboard.internetcomputer.org/">ICA Dashboard</a> from <a href="https://internetcomputer.org/">Internet Computer Association</a> provides real-time statistics about the Internet Compouter Protocol (ICP) network. 
+                        It's important to read from the right sources. <a href="https://dfinity.org/">DFINITY's official website</a> is your jump-off point, where you will find all things DFINITY and IC. <a href="https://twitter.com/dfinity">DFINITY's Twitter account</a> has the latest information and official announcement. <a href="https://dashboard.internetcomputer.org/">ICA Dashboard</a> from <a href="https://internetcomputer.org/">Internet Computer Association</a> provides real-time statistics about the Internet Compouter Protocol (ICP) network. <a href="https://forum.dfinity.org/">DFINITY's Developer Forum</a> is where the engineering team of DFINITY discusses issues, bug fixes, product features with IC developers and users - this is the best place to conduct your due dilligence on DFINITY. 
+                      </Text>
+                      <Text className="entry-one">
+                        Read up the updated IC Whitepaper here: <a href="https://dfinity.org/whitepaper.pdf">The Internet Computer for Geeks (v1.1)</a>, which was just released on Jan 27, 2022. The previous whitepaper was written and published in 2018, way before the launch of IC mainnet ("Genesis") on May 10, 2021. A lot has changed since then. It's a 45-page pdf doc and written by some of the best cryptographers and software architects in the world. 
+                      </Text>
+                      <Text className="entry-one">
+                        <a href="https://www.reddit.com/r/dfinity/">DFINITY's channel on reddit</a> is another great place to observe how DFINTY team engages the IC community. It speaks a lot to DFINITY's ethos, vision and capabilities. In particular, <a href="https://www.reddit.com/user/diego_DFN/">Diego from DFINITY</a> wrote this excellent <a href="https://www.reddit.com/r/dfinity/comments/ozboyi/megathread_technical_amas/">MEGATHREAD: Technical AMAs</a> that points to all 9 AMAs from DFINITY's R&D team during May to Aug 2021 after Genesis. Each team in the R&D organization took turns to field questions from developers. It's a fantastic learning experience.
+                      </Text>
+                      <Text className="entry-one">
+                        <a href="https://www.youtube.com/c/DFINITY">Youtube</a> has some very good videos on DFINITY and IC. Three series are fairly up to date and most useful. <a href="https://youtube.com/playlist?list=PLuhDt1vhGcrdoGdyf2Hy0doX9Zy1dwo-Z">Inside DFINITY by founder Dominic Williams</a> is a good start. <a href="https://youtube.com/playlist?list=PLuhDt1vhGcrez-f3I0_hvbwGZHZzkZ7Ng">Community Conversations hosted by Liz Yang</a> is a treasure island. <a href="https://youtube.com/playlist?list=PLuhDt1vhGcrfQGLWqhUo9-DFD5JaHqCh1">Coding with Kyle by Kyle Peacock</a> teaches you how to build a site on IC.
+                      </Text>
+                      <Text className="entry-one">
+                        This Medium article <a href="https://medium.com/dfinity/dfinity-in-2021-a-year-of-developer-and-community-growth-on-the-internet-computer-2b8bd36450d8">DFINITY in 2021: A Year of Developer and Community Growth on the Internet Computer</a> rewinds 2021 and highlights key accomplishments in IC's ecosystem building. <a href="https://medium.com/dfinity/the-internet-computer-community-adopts-25-proposals-for-future-crypto-innovation-7465984c5ad1">The Internet Computer Community Adopts 25 Proposals for Future Crypto Innovation</a> indexes 25 proposals that were adopted by the IC community toward the end of 2021, each of which came with a detailed scope and technical elaboration. A technology team's capability and commitment are best validated by its ability to deliver milestones along its roadmap consistently. DFINITY has a very comprehensive and ambitious <a href="https://medium.com/dfinity/the-internet-computers-post-genesis-r-d-roadmap-dce2938adcde">post-Genesis roadmap for 2022 and beyond</a>. These three Medium articles collectively would give a full picture of ICP's past, present and future. 
                       </Text>
                       <Text className="entry-one">
                         
