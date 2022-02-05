@@ -36,7 +36,7 @@ const ArticleStartPage = () => {
                       <Image src={heroImage} alt="Genesis Landing Page" />
                       <Box className="post-meta">
                         <Text as="span">
-                          <Text as="em"> Feb 02</Text> 2022
+                          <Text as="em"> Feb 05</Text> 2022
                         </Text>
                       </Box>
                     </Box>
@@ -45,13 +45,16 @@ const ArticleStartPage = () => {
                         Hitchhiker's Guide to Web3, Blockchain, the Internet Computer and DFINITY Foundation
                       </Heading>
                       <Text className="entry-one">
+                        <b><a href="https://js6yw-cyaaa-aaaag-aaa5q-cai.ic0.app/start/index.html">https://js6yw-cyaaa-aaaag-aaa5q-cai.ic0.app/start/index.html</a></b>
+                      </Text>
+                      <Text className="entry-one">
                         So, you're new to crypto but have heard about IC or DFINITY from some friends. You're curious to find out more and may be even interested in joining the DFINITY team or contributing to the IC community. How do you learn more about this industry, the DFINITY team and the Internet Computer?
                       </Text>
                       <Text className="entry-one">
                         Here's a guide that can help you get started to grasp some basic concepts and get your hands dirty in this exciting world of Web3, metaverse, blockchain and some of the most advanced Internet technology innovations.
                       </Text>
                       <Text className="entry-one">
-                        TL'DR
+                        TL'DR | 20 minutes read
                       </Text>
                       <Text className="entry-three">
                         1. Challenges of Learning Blockchain
@@ -183,7 +186,7 @@ const ArticleStartPage = () => {
                         </ol>
                       </Text>
                       <Text className="entry-three">
-                        6. What Kind of People Makes Good Fit for DFINITY?
+                        6. What Kind of People Make Good Fit for DFINITY?
                       </Text>
                       <Text className="entry-one">
                         If you're interested in joining DFINITY, read on. If not, just skip this and go to the next section.
