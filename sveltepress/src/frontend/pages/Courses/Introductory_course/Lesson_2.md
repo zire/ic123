@@ -10,7 +10,7 @@ postName: 第二课：Motoko 语言简介
 
 ## 视频
 
-[![使用SDK搭建第一个网站](/Course/introductory_course/L2/Page1.png)](https://www.bilibili.com/video/BV1GU4y127yw?share_source=copy_web)
+[![Motoko 语言简介](/Course/introductory_course/L2/Page1.png)](https://www.bilibili.com/video/BV1GU4y127yw?share_source=copy_web)
 
 ---
 

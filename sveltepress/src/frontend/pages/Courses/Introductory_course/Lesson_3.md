@@ -10,7 +10,7 @@ postName: 第三课：Canister 智能合约
 
 ## 视频
 
-[![使用SDK搭建第一个网站](/Course/introductory_course/L3/Page1.png)](https://www.bilibili.com/video/BV1W5411X7vR?share_source=copy_web)
+[![Canister 智能合约](/Course/introductory_course/L3/Page1.png)](https://www.bilibili.com/video/BV1W5411X7vR?share_source=copy_web)
 
 ---
 

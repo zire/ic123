@@ -10,7 +10,7 @@ postName: 第五课：用 JavaScript 做前端
 
 ## 视频
 
-[![使用SDK搭建第一个网站](/Course/introductory_course/L5/Page1.png)](https://www.bilibili.com/video/BV17Y411F76G?share_source=copy_web)
+[![用 JavaScript 做前端](/Course/introductory_course/L5/Page1.png)](https://www.bilibili.com/video/BV17Y411F76G?share_source=copy_web)
 
 ---
 

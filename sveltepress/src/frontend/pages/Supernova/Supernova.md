@@ -1,4 +1,8 @@
-![supernova](/supernova.png)
+---
+postName: Supernova介绍
+---
+
+![supernova](/Supernova/supernova.png)
 ---
 # Supernova 全球黑客松背景介绍
 互联网计算机协议是第三大区块链创新——世界上最快、最经济的区块链，用于构建和部署 Web3 Dapp、DeFi、游戏、NFT、社交媒体和可以扩展到数百万用户的元宇宙项目，所有的这些项目都完全在链上。

@@ -16,7 +16,7 @@ postName: 第一课：使用SDK搭建第一个网站
 
 ### 课件内容
 
-![1](/Course/Course/introductory_course/L1/Page1.png)
+![1](/Course/introductory_course/L1/Page1.png)
 
 ![2](/Course/introductory_course/L1/Page2.png)
 
