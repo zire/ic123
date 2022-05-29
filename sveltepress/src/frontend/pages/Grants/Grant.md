@@ -18,4 +18,4 @@ DFINITY 是一个被称为“ 互联网计算机 ”的开源通用计算平台�
 -   DApps 与开发互联网服务：游戏、社交、DeFi、媒体；
 -   容器开发套件 CDK。
 
-如果你对申请 grant 有更多问题，可以加入[IC华语官方社区(IC4O)](https://t.me/+VdtEpjp34AQ2OWJl)咨询。
+如果你对申请 grant 有更多问题，可以加入[IC开发者官方社区(ICDC)](https://t.me/+VdtEpjp34AQ2OWJl)咨询。

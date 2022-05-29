@@ -171,7 +171,7 @@
 
   <footer>
     <span class="pd" /> 2021{currentYear === 2021 ? "" : " - " + currentYear} -
-    <a class="sp--link" href="https://t.me/+VdtEpjp34AQ2OWJl">加入ic4o社区</a>
+    <a class="sp--link" href="https://t.me/+VdtEpjp34AQ2OWJl">IC开发者官方社区(ICDC)</a>
   </footer>
 </div>
 

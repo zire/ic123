@@ -8,4 +8,4 @@ postName: 官方课程说明
 
 
 
-您也可以加入[IC华语官方社区](https://t.me/+VdtEpjp34AQ2OWJl)，与华语开发者共同讨论IC开发的相关知识。
+您也可以加入[IC开发者官方社区(ICDC)](https://t.me/+VdtEpjp34AQ2OWJl)，与华语开发者共同讨论IC开发的相关知识。

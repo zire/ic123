@@ -6,7 +6,7 @@ postName: 第一课：使用SDK搭建第一个网站
 
 本课程为Dfinity官方推出的视频教程，由Dfinity核心工程师Paul Liu录制。更多视频可以访问[B站官方频道](https://space.bilibili.com/1746673807)。
 
-您也可以加入[IC华语官方社区](https://t.me/+VdtEpjp34AQ2OWJl)，与华语开发者共同讨论IC开发的相关知识。
+您也可以加入[IC开发者官方社区(ICDC)](https://t.me/+VdtEpjp34AQ2OWJl)，与华语开发者共同讨论IC开发的相关知识。
 
 ## 视频
 
