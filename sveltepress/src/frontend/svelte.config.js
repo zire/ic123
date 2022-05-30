@@ -11,7 +11,9 @@ import staticAdptr from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		// Use your desired adapter
-		adapter: staticAdptr(),
+		adapter: staticAdptr({
+			fallback: 'index.html'
+		}),
 		vite: () => ({
 			// Purges too much, disabled for now
 			// plugins: [process.env.NODE_ENV === 'production' && optimizeCss()],
