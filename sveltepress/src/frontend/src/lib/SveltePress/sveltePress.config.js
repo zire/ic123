@@ -31,7 +31,7 @@ export default {
 		]
 	},
 	// Used in title meta tag
-	title: 'ic123',
+	title: 'IC 123',
 	// Sorting method
 	// Types: alphabetically, modified
 	// alphabetically => A-Z (reverse: Z-A) [default]

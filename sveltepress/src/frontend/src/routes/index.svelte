@@ -32,7 +32,7 @@
         总奖金和额外资助高达 600 万美元，包括指定的赛道奖励和开发者资助
       </h4>
       <a class="reg-btn" href="https://supernova.devpost.com/">点击报名</a>
-      <a class="md-btn" href="/Supernova">了解Supernova更多信息</a>
+      <a class="md-btn" href="/supernova">了解Supernova更多信息</a>
       <!-- <Row>
 				<Column>
 					<h2 class="banner-h2">Supernova</h2>
@@ -120,7 +120,7 @@
               ICP开发课程第一期，已全部完成。由Dfinity核心技术工程师，Paul
               Liu亲自主讲。
             </h4>
-            <a class="knowmore" href="/Courses">学习完整课程</a>
+            <a class="knowmore" href="/courses">学习完整课程</a>
           </Tile>
         </Column>
         <Column md sm={12}>
@@ -143,7 +143,7 @@
             <h4>
               DFINITY开发者资助计划旨在促进互联网计算机生态系统的发展，并通过为有前途的开发者和团队提供支持，使全球更多的开发者能够接触到互联网计算机。
             </h4>
-            <a class="knowmore" href="/Grants">了解详情</a>
+            <a class="knowmore" href="/grants">了解详情</a>
           </Tile>
         </Column>
       </Row>
@@ -156,7 +156,7 @@
               互联网计算机的首届全球黑客马拉松,总奖金和额外资助高达 600
               万美元，包括指定的赛道奖励和开发者资助.
             </h4>
-            <a class="knowmore" href="/Supernova">了解更多</a>
+            <a class="knowmore" href="/supernova">了解更多</a>
           </Tile>
         </Column>
         <Column md sm={12}>
