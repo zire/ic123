@@ -33,33 +33,6 @@
       </h4>
       <a class="reg-btn" href="https://supernova.devpost.com/">点击报名</a>
       <a class="md-btn" href="/supernova">了解Supernova更多信息</a>
-      <!-- <Row>
-				<Column>
-					<h2 class="banner-h2">Supernova</h2>
-				</Column>
-				<Column>
-					<img
-						class="banner-g"
-						sizes="(max-width: 600px) 100vw, 600px"
-						src="https://dfinity.org/static/e7da3118560fc159f216844249b3e948/ad85c/supernova-img.webp"
-						alt=""
-						loading="lazy"
-					/>
-				</Column>
-			</Row>
-			<Row>
-				<h4 class="banner-h4">从2020年5月10日到2020年6月20日</h4>
-			</Row>
-			<Row>
-				<h4 class="banner-h4">互联网计算机的首届全球黑客马拉松</h4>
-			</Row>
-			<Row>
-				<h4 class="banner-h4">总奖金和额外资助高达 600 万美元，包括指定的赛道奖励和开发者资助</h4>
-			</Row>
-			<Row>
-				<a class="reg-btn" href="https://supernova.devpost.com/">点击报名</a>
-				<a class="md-btn" href="/Supernova">了解Supernova更多信息</a>
-			</Row> -->
     </Grid>
   </div>
   <div class="sp--header">
@@ -96,22 +69,6 @@
       </Row>
     </Grid>
     <Grid padding class="sp--grid sp--features">
-      <Row class="sp--feature">
-        <Column md sm={12}>
-          <img src="/showcase.png" alt="" />
-        </Column>
-        <Column class="sp--feature--card" md sm={12}>
-          <Tile class="sp--tile">
-            <h2 class="tile--title">生态环境中的明星项目</h2>
-            <h4>
-              随着IC生态的不断壮大，越来越多的开发者，在IC生态中开发不同领域的各种dapp.
-            </h4>
-            <a class="knowmore" href="https://dfinity.org/showcase/?"
-              >了解更多明星项目</a
-            >
-          </Tile>
-        </Column>
-      </Row>
       <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
         <Column class="sp--feature--card" md sm={12}
           ><Tile class="sp--tile"
@@ -130,24 +87,13 @@
           />
         </Column>
       </Row>
-      <Row class="sp--feature">
+      <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
         <Column md sm={12}>
           <img
-            src="/grants.png"
-            alt="screenshots of multiple guis of sveltepress (gtk, qt, flutter (desktop & mobile)"
+            src="/Supernova/supernovaopen.jpg"
+            alt="the cakepop official theme in front of the carbon one"
           />
         </Column>
-        <Column class="sp--feature--card" md sm={12}
-          ><Tile class="sp--tile"
-            ><h2 class="tile--title">DFINITY开发者资助计划</h2>
-            <h4>
-              DFINITY开发者资助计划旨在促进互联网计算机生态系统的发展，并通过为有前途的开发者和团队提供支持，使全球更多的开发者能够接触到互联网计算机。
-            </h4>
-            <a class="knowmore" href="/grants">了解详情</a>
-          </Tile>
-        </Column>
-      </Row>
-      <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
         <Column class="sp--feature--card" md sm={12}
           ><Tile class="sp--tile"
             ><h2 class="tile--title">Supernova</h2>
@@ -159,12 +105,7 @@
             <a class="knowmore" href="/supernova">了解更多</a>
           </Tile>
         </Column>
-        <Column md sm={12}>
-          <img
-            src="/Supernova/supernovaopen.jpg"
-            alt="the cakepop official theme in front of the carbon one"
-          />
-        </Column>
+
       </Row>
     </Grid>
   </div>
