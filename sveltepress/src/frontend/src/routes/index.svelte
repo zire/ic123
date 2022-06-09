@@ -23,9 +23,11 @@
 
 <div class="main">
   <div class="banner">
-      
-          <h2 class="banner-h2 ">DFINITY官方团队带你学习互联网计算机，成为Web3时代最新潮的开发者</h2>
-       
+    <Grid >
+        
+            <h2 class="banner-h2 ">DFINITY官方团队带你学习互联网计算机，成为Web3时代最新潮的开发者</h2>
+
+        </Grid>
      
 
   </div>
@@ -214,6 +216,7 @@
     :global(.sp--grid) {
       margin-bottom: 5rem;
     }
+   
   }
 
   .banner {
@@ -221,27 +224,41 @@
     display: flex;
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 35rem;
     top: 0;
     left: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: coveer;
     background-image: url("/banner_bg.png");
   }
 
   .banner-h2 {
-    font-size: 40px;
-    // display: inline-block;
-    // position: absolute;
+    position: absolute;
+    font-size: 1.5rem;
     text-align: center;
-    width: 35rem;
+    left: 0;
+    width: 20rem;
     color: #e1edff;
-    margin-top: 7rem;
-    margin-left: 2rem;
+    margin-top: 10rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
     margin-right: 2rem;
   }
-  
+  @media (min-width: 673px){
+    .banner-h2 {
+    position: absolute;
+    font-size: 3rem;
+    text-align: center;
+    left: 0;
+    width: 40rem;
+    color: #e1edff;
+    margin-top: 10rem;
+    margin-left: 50%;
+    transform: translateX(-40rem);
+    margin-right: 2rem;
+  }
+  }
   .bx-title-0 {
     display: block;
     text-align: center;
@@ -252,36 +269,37 @@
   }
   .bx-title-1 {
     display: block;
-    height: 10rem;
+    height: 162px;
     text-align: center;
-    padding: 3rem;
-    background-color: rgba(237, 30, 121, 0.7);
+    padding: 3.6rem 2rem 6rem 2rem;
+    // line-height: 162px;
+    background-color: rgba(237, 30, 121, 0.8);
     color: aliceblue;
     margin: 0.5rem;
   }
   .bx-title-2 {
     display: block;
-    height: 10rem;
+    height: 162px;
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 2rem 6rem 2rem;
     background-color: #29abe2;
     color: aliceblue;
     margin: 0.5rem;
   }
   .bx-title-3 {
     display: block;
-    height: 10rem;
+    height: 162px;
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 2rem 6rem 2rem;
     background-color: #522785;
     color: aliceblue;
     margin: 0.5rem;
   }
   .bx-title-4 {
     display: block;
-    height: 10rem;
+    height: 162px;
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 2rem 6rem 2rem;
     background-color: rgba(241, 90, 36, 0.8);
     color: aliceblue;
     margin: 0.5rem;
