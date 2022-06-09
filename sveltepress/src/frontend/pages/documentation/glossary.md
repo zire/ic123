@@ -1,3 +1,6 @@
+---
+postName: 核心词汇表 Glossary
+---
 # 互联网计算机（IC）技术文档
 
 Internet Computer (IC) Technical Doc

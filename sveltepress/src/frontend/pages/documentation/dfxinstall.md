@@ -1,10 +1,10 @@
 ---
-postName: dfx安装
+postName: 安装SDK
 ---
 
 # IC开发环境搭建
-要进行互联网计算机的开发，首先你需要下载Dfinity Canister smart contract SDK，这个SDK称之为 `dfx`
-目前dfx支持linux或macOS 12.*极其之后的版本。
+要进行互联网计算机的开发，首先你需要下载Dfinity Canister smart contract SDK，这个SDK名为 `dfx`
+目前dfx支持linux和macOS 12.*之后的版本。
 
 ## Mac/Linux安装
 通过终端输入如下命令，即可安装dfx，如果下载途中提示是否继续下载，请输入y即可。

@@ -1,99 +1,99 @@
 <script>
-	import { page } from '$app/stores';
-	import {
-		Header,
-		HeaderNav,
-		HeaderNavItem,
-		SkipToContent,
-		HeaderUtilities,
-		HeaderNavMenu,
-		HeaderAction,
-		Button,
-		HeaderPanelDivider,
-		HeaderPanelLinks,
-		HeaderPanelLink
-	} from 'carbon-components-svelte';
-	import Search from '$lib/SveltePress/components/search.svelte';
-	import { theme } from '../../../../stores';
+  import { page } from "$app/stores";
+  import {
+    Header,
+    HeaderNav,
+    HeaderNavItem,
+    SkipToContent,
+    HeaderUtilities,
+    HeaderNavMenu,
+    HeaderAction,
+    Button,
+    HeaderPanelDivider,
+    HeaderPanelLinks,
+    HeaderPanelLink,
+  } from "carbon-components-svelte";
+  import Search from "$lib/SveltePress/components/search.svelte";
+  import { theme } from "../../../../stores";
 
-	import RadioButton20 from 'carbon-icons-svelte/lib/RadioButton20';
-	import Contrast20 from 'carbon-icons-svelte/lib/Contrast20';
-	import Sun20 from 'carbon-icons-svelte/lib/Sun20';
-	import Moon20 from 'carbon-icons-svelte/lib/Moon20';
+  import RadioButton20 from "carbon-icons-svelte/lib/RadioButton20";
+  import Contrast20 from "carbon-icons-svelte/lib/Contrast20";
+  import Sun20 from "carbon-icons-svelte/lib/Sun20";
+  import Moon20 from "carbon-icons-svelte/lib/Moon20";
 
-	const themes = {
-		light: ['g10', 'white'],
-		dark: ['g90', 'g100']
-	};
+  const themes = {
+    light: ["g10", "white"],
+    dark: ["g90", "g100"],
+  };
 
-	function hasContrast(themeName) {
-		return ['g90', 'g10'].includes(themeName);
-	}
-	function isDark(themeName) {
-		return ['g100', 'g90'].includes(themeName);
-	}
+  function hasContrast(themeName) {
+    return ["g90", "g10"].includes(themeName);
+  }
+  function isDark(themeName) {
+    return ["g100", "g90"].includes(themeName);
+  }
 
-	function setTheme(toggleTheme = true) {
-		let themeType = isDark($theme) ? 'dark' : 'light';
-		let contrastType = hasContrast($theme) ? 0 : 1;
-		if (toggleTheme) {
-			themeType = themeType === 'dark' ? 'light' : 'dark';
-		} else {
-			contrastType = contrastType === 1 ? 0 : 1;
-		}
-		theme.set(themes[themeType][contrastType]);
-	}
+  function setTheme(toggleTheme = true) {
+    let themeType = isDark($theme) ? "dark" : "light";
+    let contrastType = hasContrast($theme) ? 0 : 1;
+    if (toggleTheme) {
+      themeType = themeType === "dark" ? "light" : "dark";
+    } else {
+      contrastType = contrastType === 1 ? 0 : 1;
+    }
+    theme.set(themes[themeType][contrastType]);
+  }
 
-	function isExternal(link) {
-		const host = 'https://' + $page.host;
-		return new URL(link, host).origin !== host;
-	}
+  function isExternal(link) {
+    const host = "https://" + $page.host;
+    return new URL(link, host).origin !== host;
+  }
 
-	$: contrastIcon = hasContrast($theme) ? RadioButton20 : Contrast20;
-	$: themeIcon = isDark($theme) ? Sun20 : Moon20;
+  $: contrastIcon = hasContrast($theme) ? RadioButton20 : Contrast20;
+  $: themeIcon = isDark($theme) ? Sun20 : Moon20;
 
-	let isOpen = false;
+  let isOpen = false;
 
-	export let isSideNavOpen;
-	export let nav;
+  export let isSideNavOpen;
+  export let nav;
 </script>
 
 <Header company="IC" platformName="123" href="/" bind:isSideNavOpen>
-	<div slot="skip-to-content">
-		<SkipToContent />
-	</div>
+  <div slot="skip-to-content">
+    <SkipToContent />
+  </div>
 
-	<HeaderNav>
-		{#if nav.length > 8}
-			<HeaderNavMenu text="Pages">
-				{#each nav as navItem}
-					<HeaderNavItem
-						href={navItem.link}
-						text={navItem.name}
-						target={isExternal(navItem.link) ? '_blank' : undefined}
-						rel={isExternal(navItem.link) ? 'noopener' : undefined}
-						sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
-					/>
-				{/each}
-			</HeaderNavMenu>
-		{:else}
-			{#each nav as navItem}
-				<HeaderNavItem
-					href={navItem.link}
-					text={navItem.name}
-					target={isExternal(navItem.link) ? '_blank' : undefined}
-					rel={isExternal(navItem.link) ? 'noopener' : undefined}
-					sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
-				/>
-			{/each}
-		{/if}
-	</HeaderNav>
-	<HeaderUtilities>
-		<Search />
-		<div class="sp--theme-switcher-button">
-			<a href="https://t.me/+VdtEpjp34AQ2OWJl">
-			</a>
-			<!-- <Button
+  <HeaderNav>
+    {#if nav.length > 8}
+      <HeaderNavMenu text="Pages">
+        {#each nav as navItem}
+          <HeaderNavItem
+            href={navItem.link}
+            text={navItem.name}
+            target={isExternal(navItem.link) ? "_blank" : undefined}
+            rel={isExternal(navItem.link) ? "noopener" : undefined}
+            sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
+          />
+        {/each}
+      </HeaderNavMenu>
+    {:else}
+      {#each nav as navItem}
+        <HeaderNavItem
+          href={navItem.link}
+          text={navItem.name}
+          target={isExternal(navItem.link) ? "_blank" : undefined}
+          rel={isExternal(navItem.link) ? "noopener" : undefined}
+          sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
+        />
+      {/each}
+    {/if}
+  </HeaderNav>
+  <HeaderUtilities>
+    <Search />
+    <div class="sp--theme-switcher-button">
+      <a href="https://t.me/+VdtEpjp34AQ2OWJl"> 
+		</a>
+      <!-- <Button
 				iconDescription="Toggle Contrast"
 				icon={contrastIcon}
 				kind="secondary"
@@ -106,48 +106,49 @@
 				on:click={() => setTheme()}
 				tooltipAlignment="end"
 			/> -->
-		</div>
-		<div class="sp--app-menu">
-			<HeaderAction bind:isOpen>
-				<HeaderPanelLinks>
-					{#each nav as navItem}
-						<HeaderPanelLink
-							href={navItem.link}
-							target={isExternal(navItem.link) ? '_blank' : undefined}
-							rel={isExternal(navItem.link) ? 'noopener' : undefined}
-							sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
-							>{navItem.name}</HeaderPanelLink
-						>
-					{/each}
-					<HeaderPanelDivider />
-					<!-- <HeaderPanelLink on:click={() => setTheme(false)}>Toggle Contrast</HeaderPanelLink>
+    </div>
+    <div class="sp--app-menu">
+      <HeaderAction bind:isOpen>
+        <HeaderPanelLinks>
+          {#each nav as navItem}
+            <HeaderPanelLink
+              href={navItem.link}
+              target={isExternal(navItem.link) ? "_blank" : undefined}
+              rel={isExternal(navItem.link) ? "noopener" : undefined}
+              sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
+              >{navItem.name}</HeaderPanelLink
+            >
+          {/each}
+          <HeaderPanelDivider />
+          <!-- <HeaderPanelLink on:click={() => setTheme(false)}>Toggle Contrast</HeaderPanelLink>
 					<HeaderPanelLink on:click={() => setTheme()}>Toggle Theme</HeaderPanelLink> -->
-				</HeaderPanelLinks>
-			</HeaderAction>
-		</div>
-	</HeaderUtilities>
+        </HeaderPanelLinks>
+      </HeaderAction>
+    </div>
+  </HeaderUtilities>
 </Header>
 
 <style lang="scss">
-	.sp--theme-switcher-button {
-		display: none;
-		@media only screen and (min-width: 1056px) {
-			display: inline-flex;
-		}
-	}
-	.sp--app-menu {
-		display: inline-flex;
-		@media only screen and (min-width: 1056px) {
-			display: none;
-		}
-	}
-	a {
-		display: block;
-		margin: 11px;
-		width:20px;
-		height: 20px;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-image: url("/telegram-24.png");
-	}
+  .sp--theme-switcher-button {
+    display: none;
+    @media only screen and (min-width: 1056px) {
+      display: inline-flex;
+    }
+  }
+  .sp--app-menu {
+    display: inline-flex;
+    @media only screen and (min-width: 1056px) {
+      display: none;
+    }
+  }
+
+  a {
+    display: block;
+    margin: 11px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/telegram-24.png");
+  }
 </style>
