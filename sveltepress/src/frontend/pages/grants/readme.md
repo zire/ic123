@@ -1,3 +1,3 @@
 ---
-groupName: 扶植计划
+groupName: 激励计划
 ---

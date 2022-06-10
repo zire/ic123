@@ -33,12 +33,12 @@
   </div>
   <div class="sp--header">
     <Grid padding condensed>
-      <Row>
+      <Row >
         <Column>
           <h4 class="bx-title-0">
             互联网计算机（Internet
-            Computer）是一个去中心化的云计算平台,利用颠覆性的链钥密码学技术将全世界独立的数据中心以子网的方式链接成一个可以无限扩容的虚拟主机。网络应用以智能合约的形式被封存在子网上的容器里,通过数据中心的服务器获得带宽,存储空间和算力。IC是目前唯一可以运行网络前端而且100%部署在链上的区块链平台,在以太坊为首的资产型区块链以外,开创了一种全新范式
-            - 通用型区块链,解锁了重构互联网的无限可能
+            Computer）是一个去中心化的云计算平台，利用颠覆性的链钥密码学技术将全世界独立的数据中心以子网的方式链接成一个可以无限扩容的虚拟主机。网络应用以智能合约的形式被封存在子网上的容器里，通过数据中心的服务器获得带宽，存储空间和算力。IC是目前唯一可以运行网络前端而且100%部署在链上的区块链平台，在以太坊为首的资产型区块链以外，开创了一种全新范式
+            - 通用型区块链，解锁了重构互联网的无限可能。
           </h4>
         </Column>
       </Row>
@@ -47,28 +47,28 @@
           <h2 class="title-why">为什么选择互联网计算机</h2>
         </Column>
       </Row>
-      <Row class="sp--header--tiles">
-        <Column>
+      <Row class="sp--feature" >
+        <Column  md sm={breakpoints.sm}>
           <h4 class="bx-title-1">
-            直接在区块链上部署网络应用前端,远低于云计算架构的开发成本
+            直接在区块链上部署网络应用前端，远低于云计算架构的开发成本
           </h4>
         </Column>
-        <Column md sm={breakpoints.sm}>
+        <Column  md sm={breakpoints.sm}>
           <h4 class="bx-title-2">
-            互联网开发经验无缝迁移,真正的Web3一体化平台,一天内快速开发区块链app
+            互联网开发经验无缝迁移，真正的Web3一体化平台，一天内快速开发区块链app
           </h4>
         </Column>
       </Row>
-      <Row>
-        <Column class="bx">
+      <Row class="sp--feature" >
+        <Column md sm={breakpoints.sm}>
           <h4 class="bx-title-3">
             使用场景涵盖互联网行业所有垂直领域 -
-            金融,游戏,NFT,社交,工具,科研,企业服务
+            金融，游戏，NFT，社交，工具，科研，企业服务
           </h4>
         </Column>
         <Column md sm={breakpoints.sm}>
           <h4 class="bx-title-4">
-            加入顶级海外公链的早期生态,学习欧美一流的区块链全栈技术,成为Web3时代的独角兽CTO
+            加入顶级海外公链的早期生态，学习欧美一流的区块链全栈技术，成为Web3时代的独角兽CTO
           </h4>
         </Column>
       </Row>
@@ -95,23 +95,24 @@
         </Row>
       </div>
       <div class="tile1">
-        <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
-          <Column md sm={12}>
-            <h2 class="hh2">Supernova</h2>
-            <h4 class="hh5">2022年5月10日 - 2022年6月20日</h4>
-            <h4 class="hh4">
-              DFINITY举办的首届全球黑客松 - Supernova,
-              吸引了3千多名开发者角逐高达600万美元的奖金池
-            </h4>
-            <a class="course-btn" href="/supernova">如何参赛</a>
-          </Column>
+        <Row class="sp--feature" >
+         
           <Column class="sp--feature--card" md sm={12}>
             <a href="/supernova">
               <img
                 src="/Supernova/supernovaopen.jpg"
-                alt="the cakepop official theme in front of the carbon one"
+                alt=""
               />
             </a>
+          </Column>
+          <Column md sm={12}>
+            <h2 class="hh2">Supernova</h2>
+            <h4 class="hh5">2022年5月10日 - 2022年6月20日</h4>
+            <h4 class="hh4">
+              DFINITY举办的首届全球黑客松 - Supernova，
+              吸引了3千多名开发者角逐高达600万美元的奖金池
+            </h4>
+            <a class="course-btn" href="/supernova">如何参赛</a>
           </Column>
         </Row>
       </div>
@@ -232,7 +233,7 @@
       font-size: 3rem;
       text-align: center;
       left: 0;
-      width: 40rem;
+      width: 38rem;
       color: #e1edff;
       margin-top: 12rem;
       margin-left: 50%;
@@ -263,7 +264,7 @@
     display: block;
     height: 162px;
     text-align: center;
-    padding: 5.5vh 2rem 6rem 2rem;
+    padding: 3.7rem 2vh 6rem 2rem;
     background-color: rgba(237, 30, 121, 0.8);
     color: aliceblue;
     margin: 0.5rem;
@@ -273,7 +274,7 @@
     display: block;
     height: 162px;
     text-align: center;
-    padding: 4.5vh 3rem 6rem 3rem;
+    padding: 3.5rem 3rem 6rem 3rem;
     background-color: #29abe2;
     color: aliceblue;
     margin: 0.5rem;
@@ -283,7 +284,7 @@
     display: block;
     height: 162px;
     text-align: center;
-    padding: 4.5vh 3rem 6rem 3rem;
+    padding: 3rem 3rem 6rem 3rem;
     background-color: #522785;
     color: aliceblue;
     margin: 0.5rem;
@@ -293,7 +294,7 @@
     display: block;
     height: 162px;
     text-align: center;
-    padding: 4.5vh 3rem 6rem 3rem;
+    padding: 3rem 3rem 6rem 3rem;
     background-color: rgba(241, 90, 36, 0.8);
     color: aliceblue;
     margin: 0.5rem;

@@ -16,7 +16,7 @@ postName: 安装SDK
 dfx原生并不支持Windows系统，不过你可以安装Windows Subsystem For Linux（WSL）来运行DFX。
 
 ### 1. 安装WSL
-要安装linux的WSL子系统，首先请确认正在使用的是Windows10（2004或更高）或Windows11系统。
+要安装Linux的WSL子系统，首先请确认正在使用的是Windows 10（2004或更高）或Windows 11系统。
 现在，可以在管理员 PowerShell 或 Windows 命令提示符中输入此命令，然后重启计算机来安装运行适用于 Linux 的 Windows 子系统 (WSL) 所需的全部内容。
 ```
     wsl --install
@@ -46,11 +46,11 @@ dfx原生并不支持Windows系统，不过你可以安装Windows Subsystem For 
     sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
 ```
 ## 升级到最新
-如果再厨师安装后，有新版本SDK客供下载，您应该尽快安装更新的版本，以便获得最新的修复以及更多的功能。你可以使用`dfx upgrade`命令，将您昂钱的安装版本与最新版本进行比较。如果有更新版本的d`dfx`可用，该命令将会自动下载并安装最新版本。
+如果在重新安装后，有新版本SDK可供下载，您应该尽快安装更新的版本，以便获得最新的修复以及更多的功能。你可以使用 `dfx upgrade` 命令，将您昂钱的安装版本与最新版本进行比较。如果有更新版本的 ` dfx ` 可用，该命令将会自动下载并安装最新版本。
 
 ## 卸载
-安装 SDK 时，安装脚本会将所需的二进制文件放在本地目录中并创建缓存。您可以通过运行文件夹`uninstall`中的脚本从本地计算机中删除 SDK 二进制文件和缓存.cache
+安装 SDK 时，安装脚本会将所需的二进制文件放在本地目录中并创建缓存。您可以通过运行文件夹``uninstall``中的脚本从本地计算机中删除 SDK 二进制文件和缓存 .cache
 例如
 ```
-    ~/.cache/dfinity/uninstall.sh
+~/.cache/dfinity/uninstall.sh
 ```
