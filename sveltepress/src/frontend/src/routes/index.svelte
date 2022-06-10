@@ -17,43 +17,45 @@
 </script>
 
 <svelte:head>
-  <!-- <meta name="og:title" content={Config.title} /> -->
+  <meta name="og:title" content={Config.title} />
   <title>{Config.title}</title>
 </svelte:head>
 
 <div class="main">
   <div class="banner">
-    <Grid >
-        
-            <h2 class="banner-h2 ">DFINITY官方团队带你学习互联网计算机，成为Web3时代最新潮的开发者</h2>
-
-        </Grid>
-     
-
+    <Grid>
+      <h2 class="banner-h2 ">
+        <span>DFINITY</span
+        >官方团队带你学习互联网计算机,成为Web3时代最新潮的开发者
+      </h2>
+      <img class="motoko" src="/motoko.png" alt="motoko" />
+    </Grid>
   </div>
   <div class="sp--header">
     <Grid padding condensed>
       <Row>
-        <Column class="bx">
+        <Column>
           <h4 class="bx-title-0">
             互联网计算机（Internet
-            Computer/IC）是一个去中心化的云计算平台，利用颠覆性的链钥密码学技术将全世界独立的数据中心以子网的方式链接成一个可以无限扩容的虚拟主机。网络应用以智能合约的形式被封存在子网上的容器里，通过数据中心的服务器获得带宽，存储空间和算力。IC是目前唯一可以运行网络前端而且100%部署在链上的区块链平台，在以太坊为首的资产型区块链以外，开创了一种全新范式
-            - 通用型区块链，解锁了重构互联网的无限可能。
+            Computer）是一个去中心化的云计算平台,利用颠覆性的链钥密码学技术将全世界独立的数据中心以子网的方式链接成一个可以无限扩容的虚拟主机。网络应用以智能合约的形式被封存在子网上的容器里,通过数据中心的服务器获得带宽,存储空间和算力。IC是目前唯一可以运行网络前端而且100%部署在链上的区块链平台,在以太坊为首的资产型区块链以外,开创了一种全新范式
+            - 通用型区块链,解锁了重构互联网的无限可能
           </h4>
         </Column>
       </Row>
       <Row>
-        <h2 class="title-why">为什么选择互联网计算机</h2>
+        <Column>
+          <h2 class="title-why">为什么选择互联网计算机</h2>
+        </Column>
       </Row>
       <Row class="sp--header--tiles">
-        <Column class="bx">
+        <Column>
           <h4 class="bx-title-1">
-            直接在区块链上部署网络应用前端，远低于云计算架构的开发成本。
+            直接在区块链上部署网络应用前端,远低于云计算架构的开发成本
           </h4>
         </Column>
         <Column md sm={breakpoints.sm}>
           <h4 class="bx-title-2">
-            互联网开发经验无缝迁移，真正的Web3一体化平台，一天内快速开发区块链app。
+            互联网开发经验无缝迁移,真正的Web3一体化平台,一天内快速开发区块链app
           </h4>
         </Column>
       </Row>
@@ -61,12 +63,12 @@
         <Column class="bx">
           <h4 class="bx-title-3">
             使用场景涵盖互联网行业所有垂直领域 -
-            金融，游戏，NFT，社交，工具，企业服务
+            金融,游戏,NFT,社交,工具,科研,企业服务
           </h4>
         </Column>
         <Column md sm={breakpoints.sm}>
           <h4 class="bx-title-4">
-            加入顶级海外公链的早期生态，学习欧美一流的区块链全栈技术，成为Web3时代的独角兽CTO
+            加入顶级海外公链的早期生态,学习欧美一流的区块链全栈技术,成为Web3时代的独角兽CTO
           </h4>
         </Column>
       </Row>
@@ -79,16 +81,15 @@
       <div class="tile2">
         <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
           <Column md sm={12}>
-            <h2 class="hh2">如何开始Coding</h2>
+            <h2 class="hh2">IC开发新手入门</h2>
             <h4 class="hh4">
-              ICP开发课程第一期，已全部完成。由DFINITY核心技术工程师，Paul
-              Liu亲自主讲。
+              跟随DFINITY元老级工程师Paul Liu学习如何用Motoko语言开发IC应用
             </h4>
-            <a class="course-btn" href="/courses">了解更多</a>
+            <a class="course-btn" href="/courses">开始编程</a>
           </Column>
           <Column md sm={12}>
             <a href="/courses">
-            <img src="/lesson.png" alt="" />
+              <img src="/lesson.png" alt="" />
             </a>
           </Column>
         </Row>
@@ -97,20 +98,20 @@
         <Row class="sp--feature" style="flex-wrap: wrap-reverse;">
           <Column md sm={12}>
             <h2 class="hh2">Supernova</h2>
-            <h4 class="hh4">2020年5月10日 - 2020年6月20日</h4>
+            <h4 class="hh5">2022年5月10日 - 2022年6月20日</h4>
             <h4 class="hh4">
-              互联网计算机的首届全球黑客马拉松,总奖金和额外资助高达
-              600万美元，包括指定的赛道奖励和开发者资助.
+              DFINITY举办的首届全球黑客松 - Supernova,
+              吸引了3千多名开发者角逐高达600万美元的奖金池
             </h4>
-            <a class="course-btn" href="/supernova">了解更多</a>
+            <a class="course-btn" href="/supernova">如何参赛</a>
           </Column>
           <Column class="sp--feature--card" md sm={12}>
             <a href="/supernova">
-            <img
-              src="/Supernova/supernovaopen.jpg"
-              alt="the cakepop official theme in front of the carbon one"
-            />
-          </a>
+              <img
+                src="/Supernova/supernovaopen.jpg"
+                alt="the cakepop official theme in front of the carbon one"
+              />
+            </a>
           </Column>
         </Row>
       </div>
@@ -119,10 +120,6 @@
 
   <footer>
     <img src="/100_on_chain-slim-bg_dark.svg" alt="" />
-    <span class="pd" /> 2021{currentYear === 2021 ? "" : " - " + currentYear} -
-    <a class="sp--link" href="https://t.me/+VdtEpjp34AQ2OWJl"
-      >IC开发者官方社区(ICDC)</a
-    >
   </footer>
 </div>
 
@@ -171,32 +168,6 @@
     background-color: #212131;
   }
 
-  .pd {
-    display: inline-flex;
-    width: 18px;
-    height: 18px;
-    vertical-align: middle;
-    text-align: center;
-    // justify-content: center;
-  }
-
-  .pd::after {
-
-    display: block;
-    position: absolute;
-    font-size: 100%;
-  }
-  .pd::before {
-    content: "\00a9";
-    display: block;
-    position: absolute;
-    font-size: 100%;
-  }
-
-  .sp--link {
-    color: var(--cds-interactive-01);
-    text-decoration: none;
-  }
   .main {
     padding-top: 3rem;
   }
@@ -206,7 +177,7 @@
     text-align: center;
     padding: 0 2rem 2rem;
   }
-  footer>img {
+  footer > img {
     display: block;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -216,7 +187,6 @@
     :global(.sp--grid) {
       margin-bottom: 5rem;
     }
-   
   }
 
   .banner {
@@ -230,79 +200,104 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: coveer;
-    background-image: url("/banner_bg.png");
+    background-image: url("/banner_bg_1.png");
   }
 
   .banner-h2 {
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     left: 0;
     width: 20rem;
     color: #e1edff;
-    margin-top: 10rem;
+    margin-top: 20rem;
     margin-left: 50%;
     transform: translateX(-50%);
     margin-right: 2rem;
   }
-  @media (min-width: 673px){
-    .banner-h2 {
-    position: absolute;
-    font-size: 3rem;
-    text-align: center;
-    left: 0;
-    width: 40rem;
-    color: #e1edff;
-    margin-top: 10rem;
-    margin-left: 50%;
-    transform: translateX(-40rem);
-    margin-right: 2rem;
+  .banner-h2 > span {
+    font-weight: bold;
   }
+  .motoko {
+    display: block;
+    position: absolute;
+    left: -10rem;
+    top: -8rem;
+    transform: scale(25%);
+  }
+  @media (min-width: 673px) {
+    .banner-h2 {
+      position: absolute;
+
+      font-size: 3rem;
+      text-align: center;
+      left: 0;
+      width: 40rem;
+      color: #e1edff;
+      margin-top: 12rem;
+      margin-left: 50%;
+      transform: translateX(-34rem);
+      margin-right: 2rem;
+    }
+    .motoko {
+      display: block;
+      position: absolute;
+      margin-left: 50%;
+      margin-right: 2rem;
+      left: -2rem;
+      top: -2rem;
+      transform: scale(40%);
+    }
   }
   .bx-title-0 {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 2rem;
     background-color: #363e49;
     color: aliceblue;
     margin: 0.5rem;
+    border-radius: 8px;
   }
+
   .bx-title-1 {
     display: block;
     height: 162px;
     text-align: center;
-    padding: 3.6rem 2rem 6rem 2rem;
-    // line-height: 162px;
+    padding: 5.5vh 2rem 6rem 2rem;
     background-color: rgba(237, 30, 121, 0.8);
     color: aliceblue;
     margin: 0.5rem;
+    border-radius: 8px;
   }
   .bx-title-2 {
     display: block;
     height: 162px;
     text-align: center;
-    padding: 3rem 2rem 6rem 2rem;
+    padding: 4.5vh 3rem 6rem 3rem;
     background-color: #29abe2;
     color: aliceblue;
     margin: 0.5rem;
+    border-radius: 8px;
   }
   .bx-title-3 {
     display: block;
     height: 162px;
     text-align: center;
-    padding: 3rem 2rem 6rem 2rem;
+    padding: 4.5vh 3rem 6rem 3rem;
     background-color: #522785;
     color: aliceblue;
     margin: 0.5rem;
+    border-radius: 8px;
   }
   .bx-title-4 {
     display: block;
     height: 162px;
     text-align: center;
-    padding: 3rem 2rem 6rem 2rem;
+    padding: 4.5vh 3rem 6rem 3rem;
     background-color: rgba(241, 90, 36, 0.8);
     color: aliceblue;
     margin: 0.5rem;
+    border-radius: 8px;
   }
 
   .tile1 {
@@ -310,24 +305,31 @@
     background-color: #212131;
     padding-right: 1rem;
     padding-left: 1rem;
+    border-radius: 8px;
   }
   .hh2 {
     color: #e1edff;
   }
   .hh4 {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     color: #e1edff;
+  }
+  .hh5 {
+    color: #e1edff;
+    font-size: medium;
   }
   .tile2 {
     background-color: #2d3332;
     padding-right: 1rem;
     padding-left: 1rem;
+    border-radius: 8px;
   }
   .title-why {
     margin-top: 2rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    font-size: 2em;
+    font-size: 2rem;
+    text-align: center;
     color: #e1edff;
   }
   .main {
@@ -340,7 +342,7 @@
     width: 88px;
     font-size: 18 px;
     font-weight: bold;
-    background-color: #ff7324 ;
+    background-color: #ff7324;
     text-align: center;
     padding-top: 8px;
     color: #333333;
@@ -350,6 +352,5 @@
   }
   .course-btn:hover {
     box-shadow: 0 0 5px #e1edff;
-    
   }
 </style>

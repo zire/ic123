@@ -23,9 +23,8 @@
 			href={'/' + pagination.previous.relativePath.replace(/\.[^/.]+$/, '')}
 			kind="secondary"
 			size="xl"
-			style="margin-right: auto;"
-			icon={ArrowLeft32}
-			>{pagination.previous.postName}
+			style="margin-right:auto;padding:1.8rem 2rem 1rem 2rem;"
+			>{"上一篇"}
 		</Button>
 	{/if}
 	{#if pagination.next && pagination.next.postName && pagination.next.relativePath}
@@ -33,8 +32,8 @@
 			sveltekit:prefetch
 			href={'/' + pagination.next.relativePath.replace(/\.[^/.]+$/, '')}
 			size="xl"
-			style="margin-left: auto;"
-			icon={ArrowRight32}>{pagination.next.postName}</Button
+			style="margin-left: auto;padding:1.8rem 2rem 1rem 2rem;"
+			>{"下一篇"}</Button
 		>
 	{/if}
 </div>

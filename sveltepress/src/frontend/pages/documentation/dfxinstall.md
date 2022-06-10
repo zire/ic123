@@ -2,9 +2,10 @@
 postName: 安装SDK
 ---
 
-# IC开发环境搭建
-要进行互联网计算机的开发，首先你需要下载Dfinity Canister smart contract SDK，这个SDK名为 `dfx`
-目前dfx支持linux和macOS 12.*之后的版本。
+## IC开发环境搭建
+要进行互联网计算机的开发，首先你需要下载DFINITY Canister smart contract SDK，这个SDK名为 ` dfx`
+
+目前dfx支持Linux和macOS 12.*之后的版本。
 
 ## Mac/Linux安装
 通过终端输入如下命令，即可安装dfx，如果下载途中提示是否继续下载，请输入y即可。
@@ -12,10 +13,10 @@ postName: 安装SDK
     sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
 ```
 ## Windows安装使用
-dfx原生并不支持Windows系统，不过你可以通过在Windows子系统安装linux（WSL）的方式，运行dfx
+dfx原生并不支持Windows系统，不过你可以安装Windows Subsystem For Linux（WSL）来运行DFX。
 
 ### 1. 安装WSL
-要安装linux的WSL子系统，首先请确认正在使用的是windows10（2004或更高）或windows11系统。
+要安装linux的WSL子系统，首先请确认正在使用的是Windows10（2004或更高）或Windows11系统。
 现在，可以在管理员 PowerShell 或 Windows 命令提示符中输入此命令，然后重启计算机来安装运行适用于 Linux 的 Windows 子系统 (WSL) 所需的全部内容。
 ```
     wsl --install

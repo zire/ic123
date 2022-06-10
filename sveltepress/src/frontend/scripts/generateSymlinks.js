@@ -28,7 +28,7 @@ export function createSymLinks(win = process.platform === 'win32') {
 				console.log('\x1b[31m%s\x1b[0m', `Windows requires Admin to make symlinks`);
 				console.log(
 					'\x1b[31m%s\x1b[0m',
-					`Please run 'node scripts/generateSymlinks.js' on a terminal with Admin Privileges from your SveltePress project root`
+					`Please run 'node scripts/generateSymlinks.js' on a terminal with Admin Privileges from your IC 123 project root`
 				);
 
 				// Removed because admin requires a password (blank doesnt work)
