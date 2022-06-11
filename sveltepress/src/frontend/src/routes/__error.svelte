@@ -23,6 +23,6 @@
 	.sp--error-status-code {
 		font-size: 5rem;
 		font-weight: bold;
-		color: var(--cds-button-primary, #ff3e00);
+		color: var(--cds-button-primary, #f15a24);
 	}
 </style>

@@ -10,24 +10,28 @@ export default {
 	// to `items` like so:
 	// items: [{ link: "/guide", name: "Guide" }]
 	nav: {
-		overwrite: false,
+		overwrite: true,
 		items: [
-		// 	{
-		// 		link: 'Couse/Couse',
-		// 		name: '课程'
-		// 	},
-		// 	{
-		// 		link: '/Documents',
-		// 		name: '文档'
-		// 	},
-		// 	{
-		// 		link: '/Grants',
-		// 		name: 'Grant'
-		// 	},
-		// 	{
-		// 		link: '/SuperNova',
-		// 		name: 'Supernova'
-		// 	}
+			{
+				link: '/developcenter',
+				name: '开发者中心'
+			},
+			{
+				link: '/glossary',
+				name: '核心词汇表'
+			},
+			{
+				link: '/grants',
+				name: '激励计划'
+			},
+			{
+				link: '/supernova',
+				name: '黑客松'
+			},
+			{
+				link: '/about',
+				name: '关于'
+			}
 		]
 	},
 	// Used in title meta tag

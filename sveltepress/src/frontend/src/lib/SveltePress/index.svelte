@@ -72,7 +72,7 @@
 									class:filled-2={finished}
 									in:draw={{ duration, delay }}
 									d="M100 0A100 100 0 000 100v650h750V500H250V250h750V100A100 100 0 00900 0H100z"
-									fill="#ff3e00"
+									fill="#f15a24"
 								/>
 							{/if}
 						</g>
@@ -80,7 +80,7 @@
 					<h1 style="margin-top: 1rem">Welcome to SveltePress</h1>
 					<h2 class="subTitle">
 						Documentation for 
-						<Typewriter loop={3000} cursor="#ff3e00">
+						<Typewriter loop={3000} cursor="#f15a24">
 							{#each people as person}
 								<span>{person}.</span>
 							{/each}
@@ -287,7 +287,7 @@
 	}
 	path.filled-2 {
 		stroke: unset;
-		fill: #ff3e00;
+		fill: #f15a24;
 	}
 
 	/* md */

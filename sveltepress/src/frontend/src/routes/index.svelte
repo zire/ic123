@@ -85,10 +85,10 @@
             <h4 class="hh4">
               跟随DFINITY元老级工程师Paul Liu学习如何用Motoko语言开发IC应用
             </h4>
-            <a class="course-btn" href="/courses">开始编程</a>
+            <a class="course-btn" href="/developcenter/courses/dfinity_official_course">开始编程</a>
           </Column>
           <Column md sm={12}>
-            <a href="/courses">
+            <a href="/developcenter/courses/dfinity_official_course">
               <img src="/lesson.png" alt="" />
             </a>
           </Column>
