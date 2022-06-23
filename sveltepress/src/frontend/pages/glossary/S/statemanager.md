@@ -10,5 +10,7 @@ The **state manager** is responsible for
 3 obtaining certifications of parts of the canonical state, which allow other stakeholders such as other [subnets](../S/subnet) and/or users, to verify that some piece of state indeed originates from a valid subnetwork, and<br>
 4 providing capabilities to sync the canonical state with other [replicas](../R/replica) in the same subnet so that replicas that have fallen behind can catch up.<br>
 
+[英文原版链接](https://wiki.internetcomputer.org/wiki/Glossary)
+
 ---
 [返回词汇目录](../glossary)

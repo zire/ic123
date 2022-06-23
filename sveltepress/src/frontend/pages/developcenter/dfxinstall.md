@@ -13,7 +13,7 @@ postName: 安装SDK
     sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
 ```
 ## Windows安装使用
-dfx原生并不支持Windows系统，不过你可以安装Windows Subsystem For Linux（WSL）来运行DFX。
+Dfx原生并不支持Windows系统，不过你可以安装Windows Subsystem for Linux（WSL）来运行DFX。
 
 ### 1. 安装WSL
 要安装Linux的WSL子系统，首先请确认正在使用的是Windows 10（2004或更高）或Windows 11系统。

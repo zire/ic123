@@ -10,5 +10,7 @@ The **peer-to-peer layer** collects and disseminates [messages](../M/messages) a
 The [nodes](../N/node) of a [subnet](../S/subnet) form a dedicated peer-to-peer broadcast network that facilitates the secure **bounded-time/eventual delivery** broadcast of artifacts (such as [ingress messages](../I/ingressmessage), control messages and their signature shares). The [consensus](../C/consensus) layer builds upon this functionality.<br>
 
 
+[英文原版链接](https://wiki.internetcomputer.org/wiki/Glossary)
+
 ---
 [返回词汇目录](../glossary)

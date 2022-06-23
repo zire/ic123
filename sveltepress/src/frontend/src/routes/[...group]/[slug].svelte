@@ -58,6 +58,8 @@
 
 <svelte:head>
 	<meta name="og:title" content={post.meta.postName + ' - ' + Config.title} />
+	<meta name="twitter:tiltle" content={post.meta.postName + ' - ' + Config.title} />
+	<!-- <meta name="twitter:description" content={post.meta.postName + ' - ' + Config.title} /> -->
 	<title>{post.meta.postName + ' - ' + Config.title}</title>
 </svelte:head>
 

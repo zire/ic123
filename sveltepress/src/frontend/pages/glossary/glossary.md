@@ -21,9 +21,6 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Actor Model: 参与者模式](A/actorModel)<br>
 
-[Asynchronous model: 异步模型](A/asynchronousmodel)<br>
-
-[Autonomous: 自主](A/autonomous)<br>
 
 ## B
 
@@ -35,9 +32,6 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Blockchain: 区块链](B/blockchain)<br>
 
-[Block Making：出块](B/blockmaking)<br>
-
-[Blockchain Singularity: 区块链奇点](B/blockchainsingularity)<br>
 
 [Boundary Nodes: 边界节点](B/boundarynodes)<br>
 
@@ -65,15 +59,15 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Chain Key Cryptography：链钥密码学](C/chainkey)<br>
 
-[Composable：可组合](C/composable)<br>
+
 
 [Consensus：共识](C/consensus)<br>
 
-[Consensus Layer：共识层](C/consensuslayer)<br>
+
 
 [Controller：控制者](C/controller)<br>
 
-[Cross-Subnet Messages：跨子网消息](C/crosssubnet)<br>
+
 
 [Cycles：Cycles](C/cycles)<br>
 
@@ -82,15 +76,12 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Dapp：去中心化应用](D/dapp)<br>
 
-[DAO-controlled network：DAO治理网络](D/daocontrolled)<br>
+
 
 [Datacenter：数据中心](D/datacenter)<br>
 
-[Decentralized Autonomous Organization (DAO)： 去中心化自治组织](D/dao)<br>
 
-[Direct Integration (with BTC/ETH)：直接集成](D/directintegration)<br>
 
-[Distributed Key Generation (DKG)：分布式密钥生成器 ](D/dkg)<br>
 
 [Dissolve Delay：溶解延迟 ](D/dissolvedelay)<br>
 
@@ -102,29 +93,21 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Execution Environment：执行环境 ](E/executionenvironment)<br>
 
-[Execution Layer： 执行层 ](E/executionlayer)<br>
 
 ## F
 
-[Fast Forwarding：快进 ](F/fastforwarding)<br>
+
 
 [Fiduciary：账号受托者 ](F/fiduciary)<br>
 
-[Finalization：最终确认 ](F/finalization)<br>
 
 ## G
 
-[Garbage Collection：内存垃圾回收 ](G/garbagecollection)<br>
 
-[General Purpose：通用 ](G/generalpurpose)<br>
 
-[Genesis Block：创始区块 ](G/genesisblock)<br>
 
 [Governance Canister：治理容器](G/governancecanister)<br>
 
-## H
-
-[HTTP Integration：HTTP集成](H/httpintegration)<br>
 
 ## I
 
@@ -134,7 +117,6 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Identity：身份](I/identity)<br>
 
-[Immutability：不变性](I/immutability)<br>
 
 [Internet Identity：互联网身份](I/ii)<br>
 
@@ -152,15 +134,11 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 ## L
 
-[Latency：延迟](L/latency)<br>
 
-[Leader (or Block Maker)：出块者](L/blockmaker)<br>
 
-[Ledger：账本](L/leader)<br>
 
 [Ledger Canister：账本容器](L/leadercanister)<br>
 
-[Liveness： 活性](L/liveness)<br>
 
 
 ## M
@@ -189,11 +167,9 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Node Providers：节点供应商](N/nodeprovider)<br>
 
-[Notarization：公证](N/notarization)<br>
 
 ## O
 
-[Orthogonal Persistence：正交持久化](O/orthogonalpersistence)<br>
 
 [Output Queue：输出队列](O/outputqueue)<br>
 
@@ -201,62 +177,44 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [Peer-to-peer (P2P)：点对点](P/p2p)<br>
 
-[Peer-to-Peer Layer：点对点网络层](P/p2player)<br>
 
-[Permissioned：已许可](P/permissioned)<br>
 
-[Permissionless：无需许可](P/permissionless)<br>
 
-[Per-round Certified State：每轮认证状态](P/percertifiedstate)<br>
 
 [Principal：主体](P/principal)<br>
 
-[Proof-of-Stake：持有量证明](P/proofofstake)<br>
 
 
-[Proof-of-Work：工作量证明](P/proofofwork)<br>
 
-[Proposal：提案](P/proposals)<br>
 
 [Proto-node：原初节点](P/protonode)<br>
 
-[Pseudorandom Generator (PRG)：伪随机数生成器](P/prg)<br>
 
 ## Q
 
 [Query：查询](Q/query)<br>
 
-[Query Calls：查询调用](Q/querycall)<br>
 
 ## R
 
-[Random Beacon：随机数信标](R/randombeacon)<br>
 
 [Replica：节点副本](R/replica)<br>
 
 [Registry：注册表](R/registry)<br>
 
-[Registry Canister： 注册表容器](R/registrycanister)<br>
-
-[Routing Layer：路由层](R/routinglayer)<br>
 
 ## S
 
-[Scalability：扩展性](S/scalability)<br>
 
-[Service Nervous System (SNS)：服务神经系统](S/sns)<br>
 
 [Scalability：扩展性](S/smartcontract)<br>
 
-[Staking：质押](S/stake)<br>
 
 [State Change：状态改变](S/statechange)<br>
 
-[State Machine：状态机](S/statemachine)<br>
 
 [State Manager：状态管理](S/statemanager)<br>
 
-[Synchronous model：同步模型](S/synchronousmodel)<br>
 
 [Subnet：子网](S/subnet)<br>
 
@@ -264,15 +222,8 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 ## T
 
-[Tamperproof： 防篡改](T/tamperproof)<br>
+ 
 
-[Threshold ECDSA：阈值ECDSA签名](T/ecdsa)<br>
-
-[Threshold Signature： 阈值签名](T/thresholdsign)<br>
-
-[Throughput：吞吐](T/throughput)<br>
-
-[Tokenization：代币化](T/tokenization)<br>
 
 [Transaction：交易](T/transactions)<br>
 
@@ -282,7 +233,6 @@ By [Paul Liu](https://github.com/ninegua)， [Andrew Tang](https://twitter.com/a
 
 [User：用户](U/user)<br>
 
-[Update Calls：更新调用](U/usercall)<br>
 
 ## V
 

@@ -1,5 +1,6 @@
 ---
 postName: Asynchronous model：异步模型
+draft: true
 ---
 
 

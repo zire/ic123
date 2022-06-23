@@ -7,5 +7,7 @@ A **smart contract** is a stateful computer program designed to automatically ex
 
 A canister can have one or more [controllers](../C/controller) that are permitted to modify the code of the canister, thereby modifying the terms of the smart contract. For a canister smart contract to have immutable code, its list of controllers must be empty.
 
+[英文原版链接](https://wiki.internetcomputer.org/wiki/Glossary)
+
 ---
 [返回词汇目录](../glossary)

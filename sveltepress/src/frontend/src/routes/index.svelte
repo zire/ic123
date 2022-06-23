@@ -14,6 +14,14 @@
   const breakpoints = {
     sm: 8,
   };
+
+
+    var myPix = new Array("/motoko1.png","/motoko2.png","/motoko3.png","/motoko4.png","/motoko5.png");
+    var randomNum = Math.floor((Math.random() * myPix.length));
+    let img_motoko = myPix[randomNum];
+
+
+
 </script>
 
 <svelte:head>
@@ -28,7 +36,7 @@
         <span>DFINITY</span
         >官方团队带你学习互联网计算机,成为Web3时代最新潮的开发者
       </h2>
-      <img class="motoko" src="/motoko.png" alt="motoko" />
+      <img class="motoko" id="moto" src={img_motoko} alt="motoko" />
     </Grid>
   </div>
   <div class="sp--header">
@@ -200,8 +208,8 @@
     left: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: coveer;
-    background-image: url("/banner_bg_1.png");
+    background-size: cover;
+    background-image: url("/bg.jpg");
   }
 
   .banner-h2 {
@@ -222,16 +230,16 @@
   .motoko {
     display: block;
     position: absolute;
-    left: -10rem;
+    left: -6.5rem;
     top: -8rem;
-    transform: scale(25%);
+    transform: scale(40%);
   }
   @media (min-width: 673px) {
     .banner-h2 {
       position: absolute;
 
       font-size: 3rem;
-      text-align: center;
+      text-align: center; 
       left: 0;
       width: 38rem;
       color: #e1edff;
@@ -246,8 +254,8 @@
       margin-left: 50%;
       margin-right: 2rem;
       left: -2rem;
-      top: -2rem;
-      transform: scale(40%);
+      top: -1rem;
+      transform: scale(55%);
     }
   }
   .bx-title-0 {
