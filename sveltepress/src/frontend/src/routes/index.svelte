@@ -16,7 +16,7 @@
   };
 
 
-    var myPix = new Array("/motoko1.png","/motoko2.png","/motoko3.png","/motoko4.png","/motoko5.png");
+    var myPix = new Array("/motoko1.png","/motoko2.png","/motoko3.png","/motoko4.png","/motoko5.png","/motoko0.png");
     var randomNum = Math.floor((Math.random() * myPix.length));
     let img_motoko = myPix[randomNum];
 
@@ -106,7 +106,7 @@
         <Row class="sp--feature" >
          
           <Column class="sp--feature--card" md sm={12}>
-            <a href="/supernova">
+            <a href="/hackathon">
               <img
                 src="/Supernova/supernovaopen.jpg"
                 alt=""
@@ -120,7 +120,7 @@
               DFINITY举办的首届全球黑客松 - Supernova，
               吸引了3千多名开发者角逐高达600万美元的奖金池
             </h4>
-            <a class="course-btn" href="/supernova">如何参赛</a>
+            <a class="course-btn" href="/hackathon">如何参赛</a>
           </Column>
         </Row>
       </div>

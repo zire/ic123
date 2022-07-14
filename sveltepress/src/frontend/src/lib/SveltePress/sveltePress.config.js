@@ -25,7 +25,7 @@ export default {
 				name: '激励计划'
 			},
 			{
-				link: '/supernova',
+				link: '/hackathon',
 				name: '黑客松'
 			},
 			{
